@@ -9,7 +9,7 @@ const Login = ({ setUserCookie }) => {
   };
 
   return (
-    <div>
+    <div className="login">
       <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="input-name">

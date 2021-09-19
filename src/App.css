@@ -1,1 +1,68 @@
 /* Other rules */
+
+/* header / sidebar background : #212121 */
+/* pages background : #181818 */
+
+/* APP */
+.app {
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* LOGIN */
+.login {
+  min-height: 100vh;
+  color: white;
+  background-color: #181818;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #212121;
+  color: white;
+  padding: 20px 40px;
+  border-bottom: 1px solid #606060;
+}
+
+.header div {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  display: flex;
+  width: 15%;
+  flex-direction: column;
+  background-color: #212121;
+  color: white;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  padding: 13px;
+}
+
+.sidebar a:hover {
+  background-color: #606060;
+}
+
+/* PAGES */
+.pages {
+  flex: 1;
+  color: white;
+  background-color: #181818;
+  padding: 20px;
+}

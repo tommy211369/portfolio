@@ -12,7 +12,7 @@ function App() {
     Cookies.set("username", name);
   };
   return (
-    <div>
+    <div className="app">
       {username ? (
         <Home username={username} setUsername={setUsername} />
       ) : (
