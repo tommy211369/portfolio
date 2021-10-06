@@ -11,6 +11,7 @@ const list = [
     slug: "gamepad",
     img: gamepad,
     type: "Application web",
+    short: "Web",
     site: "https://gamepad-by-tommy.netlify.app/",
   },
   {
@@ -18,6 +19,7 @@ const list = [
     slug: "replique-de-vinted",
     img: vinted,
     type: "Application web",
+    short: "Web",
     site: "https://react-vinted-by-tommy.netlify.app/",
   },
   {
@@ -25,6 +27,7 @@ const list = [
     slug: "marvel",
     img: marvel,
     type: "Application web",
+    short: "Web",
     site: "https://react-marvel-by-tommy.netlify.app/",
   },
   {
@@ -32,6 +35,7 @@ const list = [
     slug: "replique-de-deliveroo",
     img: deliveroo,
     type: "Application web",
+    short: "Web",
     site: "https://react-deliveroo-project.netlify.app/",
   },
   {
@@ -39,6 +43,7 @@ const list = [
     slug: "emoji-search",
     img: emoji,
     type: "Application web",
+    short: "Web",
     site: "https://react-emoji-search-engine.netlify.app/",
   },
   {
@@ -46,6 +51,7 @@ const list = [
     slug: "todo-list",
     img: todolist,
     type: "Application web",
+    short: "Web",
     site: "https://react-todo-list-tommy.netlify.app/",
   },
 ];

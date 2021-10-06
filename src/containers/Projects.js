@@ -17,16 +17,23 @@ const Projects = () => {
               key={index}
             >
               <img src={item.img} alt={item.title} />
-              <h2>{item.title}</h2>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
+              >
+                <h2>{item.title}</h2>
+                <h3>{item.short}</h3>
+              </div>
             </Link>
           );
         })}
       </div>
       <hr></hr>
-      {/* Projet en cours */}
-      <h1>Projet en cours ...</h1>
+      <h1>Projets en cours ...</h1>
       <hr></hr>
-      {/* Prochainement */}
       <h1>Prochainement</h1>
     </div>
   );

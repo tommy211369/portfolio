@@ -1,8 +1,17 @@
 import "./App.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faTasks,
+  faCode,
+  faUserCircle,
+  faLightbulb,
+  faSignInAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import Cookies from "js-cookie";
 import Home from "./containers/Home";
 import Login from "./containers/Login";
+library.add(faTasks, faCode, faUserCircle, faLightbulb, faSignInAlt);
 
 function App() {
   const [username, setUsername] = useState(Cookies.get("username") || null);

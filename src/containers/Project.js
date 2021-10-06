@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import list from "../assets/projects";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Project = () => {
   const location = useLocation();
@@ -26,7 +27,8 @@ const Project = () => {
             <h2>{project.title}</h2>
           </a>
           <a href={project.site} target="blank">
-            Lien
+            <FontAwesomeIcon icon="sign-in-alt" className="fontawesome-icon" />
+            <span>Visiter le site</span>
           </a>
         </div>
       </div>
