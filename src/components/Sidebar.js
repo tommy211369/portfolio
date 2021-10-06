@@ -7,9 +7,9 @@ const Sidebar = () => {
   return (
     <nav className="sidebar">
       <Link to="/">Mes projets</Link>
-      <Link to="/technos">Ma stack technique</Link>
+      <Link to="/stack">Ma stack technique</Link>
       <Link to="/about">À propos</Link>
-      <Link to="/contact">Me contacter</Link>
+      {/* <Link to="/contact">Me contacter</Link> */}
     </nav>
   );
 };

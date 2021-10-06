@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Projects from "./Projects";
 import About from "./About";
-import Technos from "./Technos";
+import Stack from "./Stack";
 import Contact from "./Contact";
 import Project from "./Project";
 
@@ -19,8 +19,8 @@ const Home = ({ username, setUsername }) => {
             <Route exact path="/about">
               <About />
             </Route>
-            <Route exact path="/technos">
-              <Technos />
+            <Route exact path="/stack">
+              <Stack />
             </Route>
             <Route exact path="/contact">
               <Contact />

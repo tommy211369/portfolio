@@ -78,6 +78,7 @@ a {
 
 .sidebar a {
   padding: 13px;
+  transition: background-color 0.2s ease;
 }
 
 .sidebar a:hover {
