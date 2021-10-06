@@ -18,7 +18,7 @@ const Header = ({ setUsername, username }) => {
 
       <div>
         <p>
-          Bienvenue <span>{username}</span> !
+          Bienvenue sur mon portfolio <span>{username}</span> !
         </p>
         <button onClick={handleLogOut}>Se déconnecter</button>
       </div>
