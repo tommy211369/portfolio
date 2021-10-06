@@ -11,7 +11,11 @@ const Header = ({ setUsername, username }) => {
   };
   return (
     <div className="header">
-      {/* LOGO */}
+      <div>
+        <span>Tommy Thongrasamy</span> &nbsp;
+        <span>Développeur Fullstack Javascript</span>
+      </div>
+
       <div>
         <p>
           Bienvenue <span>{username}</span> !

@@ -13,7 +13,7 @@ const Projects = () => {
                 pathname: `/project/${item.slug}`,
                 state: { project: item },
               }}
-              className="project"
+              className="project-link"
               key={index}
             >
               <img src={item.img} alt={item.title} />
@@ -22,6 +22,12 @@ const Projects = () => {
           );
         })}
       </div>
+      <hr></hr>
+      {/* Projet en cours */}
+      <h1>Projet en cours ...</h1>
+      <hr></hr>
+      {/* Prochainement */}
+      <h1>Prochainement</h1>
     </div>
   );
 };

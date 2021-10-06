@@ -6,6 +6,7 @@
 /* APP */
 .app {
   min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -33,7 +34,31 @@ a {
 .header div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   min-width: 300px;
+}
+
+.header div:first-child span:first-child {
+  background-color: #ff0200;
+  padding: 5px 15px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.header div:first-child span:last-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header button {
+  color: #3ea7ff;
+  border: 1px solid #3ea7ff;
+  background-color: inherit;
+  padding: 10px;
+}
+
+.header button:hover {
+  cursor: pointer;
 }
 
 /* MAIN CONTENT */
@@ -74,23 +99,55 @@ a {
   justify-content: space-between;
 }
 
-.project {
+.project-link {
   width: 23%;
   transition: transform 0.2s ease;
 }
 
-.project:hover {
+.project-link:hover {
   transform: scale(1.1);
 }
 
-.project h2 {
+.project-link h2 {
   text-align: center;
   padding: 7px;
 }
 
-.project img {
+.project-link img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.projects hr {
+  margin: 50px 0 20px 0;
+  border-color: #878787;
+}
+
+.projects h1 {
+  text-transform: uppercase;
+  font-style: oblique;
+  color: #878787;
+}
+
+/* PROJECT */
+
+.project button {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8c8c8c;
+  transition: background-color 0.2s ease;
+}
+
+.project button:hover {
+  cursor: pointer;
+  background-color: #606060;
+  color: white;
+}
+
+.project > div {
+  margin-top: 30px;
 }

@@ -1,16 +1,20 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import list from "../assets/projects";
+import { useLocation, useHistory } from "react-router-dom";
 
 const Project = () => {
   const location = useLocation();
+  const history = useHistory();
   const project = location.state.project;
 
+  const goBack = () => {
+    history.push("/");
+  };
+
   return (
-    <div>
-      <h2>
-        Page du projet <span>{project.title}</span>
-      </h2>
+    <div className="project pages">
+      <button onClick={goBack}>Retour vers mes projets</button>
+      <div>
+        <h2>{project.title}</h2>
+      </div>
     </div>
   );
 };

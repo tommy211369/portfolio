@@ -13,7 +13,7 @@ const Login = ({ setUserCookie }) => {
       <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="input-name">
-          Entrez votre nom pour vous connecter :
+          Entrez votre nom pour accéder à mon portfolio :
         </label>
         <br></br>
         <input
