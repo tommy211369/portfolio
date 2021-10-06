@@ -10,7 +10,6 @@ const Login = ({ setUserCookie }) => {
 
   return (
     <div className="login">
-      <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="input-name">
           Entrez votre nom pour accéder à mon portfolio :
@@ -25,7 +24,7 @@ const Login = ({ setUserCookie }) => {
           }}
         />
         <br></br>
-        <button>Valider le nom</button>
+        <button>Se connecter</button>
       </form>
     </div>
   );
