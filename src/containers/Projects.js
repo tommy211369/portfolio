@@ -8,9 +8,16 @@ const Projects = () => {
       <div className="projects-list">
         {list.map((item, index) => {
           return (
-            <Link className="project">
+            <Link
+              to={{
+                pathname: `/project/${item.slug}`,
+                state: { project: item },
+              }}
+              className="project"
+              key={index}
+            >
               <img src={item.img} alt={item.title} />
-              <h2 key={index}>{item.title}</h2>
+              <h2>{item.title}</h2>
             </Link>
           );
         })}
