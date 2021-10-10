@@ -120,11 +120,15 @@ a {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  /* justify-content: flex-start; */
 }
 
 .project-link {
-  width: 270px;
+  max-width: 270px;
+  max-height: 200px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
   margin-bottom: 50px;
   transition: transform 0.2s ease;
 }
@@ -198,6 +202,21 @@ a {
   align-items: center;
   border-bottom: 1px solid #606060;
   padding-bottom: 20px;
+}
+
+.project .details .title div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 220px;
+}
+
+.github-icon {
+  transition: color 0.2s ease;
+}
+
+.github-icon:hover {
+  color: #969696;
 }
 
 .project .details h2 {
