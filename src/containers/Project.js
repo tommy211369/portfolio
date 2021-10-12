@@ -44,12 +44,19 @@ const Project = () => {
             </div>
           ) : (
             <div>
-              <a href={project.github}>
+              <a href={project.github} target="blank">
                 <GitHubIcon className="github-icon" />
               </a>
-              <a href="#">Essayer l'application</a>
+              <a href="#" target="blank">
+                Essayer l'application
+              </a>
             </div>
           )}
+        </div>
+        {/* Description du projet */}
+        <div className="game-description">
+          <p>{project.description}</p>
+          <p>{project.features}</p>
         </div>
       </div>
 

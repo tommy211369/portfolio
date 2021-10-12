@@ -6,12 +6,20 @@ import {
   faUserCircle,
   faLightbulb,
   faSignInAlt,
+  faExclamationTriangle,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import Cookies from "js-cookie";
 import Home from "./containers/Home";
 import Login from "./containers/Login";
-library.add(faTasks, faCode, faUserCircle, faLightbulb, faSignInAlt);
+library.add(
+  faTasks,
+  faCode,
+  faUserCircle,
+  faLightbulb,
+  faSignInAlt,
+  faExclamationTriangle
+);
 
 function App() {
   const [username, setUsername] = useState(Cookies.get("username") || null);

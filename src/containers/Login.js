@@ -1,31 +1,55 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Login = ({ setUserCookie }) => {
   const [user, setUser] = useState("");
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUserCookie(user);
+
+    if (!user) {
+      setShowAlert(true);
+      setTimeout(() => setShowAlert(false), 4000);
+    } else {
+      setUserCookie(user.toUpperCase());
+    }
   };
 
   return (
     <div className="login">
+      <div>
+        <span>Tommy Thongrasamy</span> &nbsp;
+        <span>Développeur Fullstack Javascript</span>
+      </div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="input-name">
-          Entrez votre nom pour accéder à mon portfolio :
+          Entrez un nom pour accéder à mon portfolio :
         </label>
         <br></br>
         <input
           type="text"
           id="input-name"
+          maxLength="15"
+          autoFocus
           onChange={(e) => {
             setUser(e.target.value);
             console.log(e.target.value);
           }}
         />
         <br></br>
-        <button>Se connecter</button>
+        <button>Accéder au portfolio</button>
       </form>
+
+      {showAlert && (
+        <div className="alert-message">
+          <FontAwesomeIcon
+            icon="exclamation-triangle"
+            className="warning-icon"
+          />
+          <p>Vous n'avez pas entré de nom !</p>
+        </div>
+      )}
     </div>
   );
 };
