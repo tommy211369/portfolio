@@ -11,15 +11,10 @@ const Sidebar = () => {
         <FontAwesomeIcon icon="tasks" className="fontawesome-icon" />
         <span>Mes projets</span>
       </Link>
-      <Link to="/stack">
-        <FontAwesomeIcon icon="code" className="fontawesome-icon" />
-        <span>Ma stack</span>
-      </Link>
       <Link to="/about">
         <FontAwesomeIcon icon="lightbulb" className="fontawesome-icon" />
         <span>À propos</span>
       </Link>
-      {/* <Link to="/contact">Me contacter</Link> */}
     </nav>
   );
 };

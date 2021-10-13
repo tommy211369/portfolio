@@ -321,6 +321,58 @@ a {
   color: #878787;
 }
 
+.current-project {
+  margin-top: 30px;
+  display: flex;
+}
+
+.current-project div {
+  padding: 10px;
+}
+
+.current-project img {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.next-project {
+  margin-top: 30px;
+  display: flex;
+}
+
+.next-project:hover img {
+  opacity: 1;
+}
+
+.next-project img {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  object-position: top;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.next-project div:last-child {
+  padding: 10px;
+  color: #969696;
+  transition: color 0.2s ease;
+}
+
+.next-project:hover div:last-child {
+  color: white;
+}
+
+.next-project div:last-child p,
+.current-project p {
+  font-style: oblique;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 18px;
+}
+
 /* PROJECT */
 
 .project button {
@@ -453,10 +505,57 @@ a {
 /* MEDIA QUERIES */
 /*__________________________*/
 
+@media (max-width: 1180px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header div:first-child {
+    justify-content: flex-start;
+  }
+
+  .header div:last-child {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 700px) {
   .login div:first-child span:first-child,
   .login div:first-child span:last-child {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .header div:first-child {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 630px) {
+  .sidebar {
+    display: none;
+  }
+
+  .header div:last-child {
+    justify-content: center;
+  }
+
+  .header div:last-child button {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .header div:first-child span:last-child {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 410px) {
+  .header {
+    padding: 20px 15px;
   }
 }
 

@@ -33,6 +33,19 @@ const list = [
     github: "https://github.com/tommy211369/vinted-front",
   },
   {
+    title: "Réplique de Airbnb",
+    slug: "airbnb-mobile-app",
+    description:
+      "Il s'agit d'une réplique simplifiée de l'application mobile d'Airbnb.",
+    features:
+      "L'utilisateur doit d'abord créer un compte pour se connecter. En activant la géolocalisation, on peut apercevoir les logements à proximité.",
+    img: airbnb,
+    type: "Application mobile",
+    short: "Mobile",
+    site: "https://expo.dev/@tommy211369/airbnb-by-Tommy",
+    github: "https://github.com/tommy211369/react-native-airbnb",
+  },
+  {
     title: "Marvel",
     slug: "marvel",
     description:
@@ -83,19 +96,6 @@ const list = [
     short: "Web",
     site: "https://react-todo-list-tommy.netlify.app/",
     github: "https://github.com/tommy211369/react-todo-list",
-  },
-  {
-    title: "Réplique de Airbnb",
-    slug: "airbnb-mobile-app",
-    description:
-      "Il s'agit d'une réplique simplifiée de l'application mobile d'Airbnb.",
-    features:
-      "L'utilisateur doit d'abord créer un compte pour se connecter. En activant la géolocalisation, on peut apercevoir les logements à proximité.",
-    img: airbnb,
-    type: "Application mobile",
-    short: "Mobile",
-    site: "https://expo.dev/@tommy211369/airbnb-by-Tommy",
-    github: "https://github.com/tommy211369/react-native-airbnb",
   },
 ];
 

@@ -4,8 +4,6 @@ import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Projects from "./Projects";
 import About from "./About";
-import Stack from "./Stack";
-import Contact from "./Contact";
 import Project from "./Project";
 import Spinner from "../components/Spinner";
 
@@ -31,12 +29,6 @@ const Home = ({ username, setUsername }) => {
             <Switch>
               <Route exact path="/about">
                 <About />
-              </Route>
-              <Route exact path="/stack">
-                <Stack />
-              </Route>
-              <Route exact path="/contact">
-                <Contact />
               </Route>
               <Route exact path="/project/:slug">
                 <Project />

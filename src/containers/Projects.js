@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import list from "../assets/projects";
+import next from "../assets/next";
+import currentProject from "../assets/currently";
 
 const Projects = () => {
   return (
@@ -33,8 +35,31 @@ const Projects = () => {
       </div>
       <hr></hr>
       <h1>Projets en cours ...</h1>
+      <div className="current-project">
+        <img src={currentProject.img} alt={currentProject.title} />
+        <div>
+          <h3>{currentProject.title}</h3>
+          <p>{currentProject.description}</p>
+        </div>
+      </div>
+
       <hr></hr>
       <h1>Prochainement</h1>
+      <div>
+        {next.map((item, index) => {
+          return (
+            <div key={index} className="next-project">
+              <div>
+                <img src={item.img} alt={item.title} />
+              </div>
+              <div>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
