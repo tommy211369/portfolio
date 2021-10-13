@@ -13,14 +13,14 @@ const Header = ({ setUsername, username }) => {
     <div className="header">
       <div>
         <span>Tommy Thongrasamy</span> &nbsp;
-        <span>Développeur Fullstack Javascript</span>
+        <span>Développeur Fullstack Web & Mobile</span>
       </div>
 
       <div>
         <p>
           Bienvenue sur mon portfolio <span>{username}</span> !
         </p>
-        <button onClick={handleLogOut}>Se déconnecter</button>
+        <button onClick={handleLogOut}>Quitter</button>
       </div>
     </div>
   );

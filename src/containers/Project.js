@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import list from "../assets/projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import QrCode2Icon from "@mui/icons-material/QrCode2";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 const Project = () => {
@@ -37,7 +38,7 @@ const Project = () => {
               <a href={project.site} target="blank">
                 <FontAwesomeIcon
                   icon="sign-in-alt"
-                  className="fontawesome-icon"
+                  className="go-to-app-icon"
                 />
                 <span>Visiter le site</span>
               </a>
@@ -47,8 +48,9 @@ const Project = () => {
               <a href={project.github} target="blank">
                 <GitHubIcon className="github-icon" />
               </a>
-              <a href="#" target="blank">
-                Essayer l'application
+              <a href={project.site} target="blank">
+                <QrCode2Icon className="go-to-app-icon" />
+                <span>Essayer l'application</span>
               </a>
             </div>
           )}

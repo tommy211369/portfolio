@@ -20,7 +20,7 @@ const Login = ({ setUserCookie }) => {
     <div className="login">
       <div>
         <span>Tommy Thongrasamy</span> &nbsp;
-        <span>Développeur Fullstack Javascript</span>
+        <span>Développeur Fullstack Web & Mobile</span>
       </div>
 
       <form onSubmit={handleSubmit}>

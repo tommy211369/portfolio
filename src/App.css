@@ -14,6 +14,7 @@ a {
   text-decoration: none;
 }
 
+.go-to-app-icon,
 .fontawesome-icon {
   display: block;
   min-width: 20px;
@@ -366,7 +367,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 220px;
+  /* min-width: 220px; */
 }
 
 .github-icon {
@@ -392,6 +393,8 @@ a {
   border-radius: 50px;
   transition: background-color 0.2s ease;
   display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .project .details .title a:last-child:hover {
@@ -402,6 +405,10 @@ a {
   margin-top: 20px;
   box-sizing: border-box;
   line-height: 22px;
+}
+
+.game-description p:last-child {
+  margin-top: 20px;
 }
 
 .project .other-projects {

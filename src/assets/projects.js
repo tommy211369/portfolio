@@ -13,7 +13,7 @@ const list = [
     description:
       "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
     features:
-      "Fonctionnalités :\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur a la possibilité de créer un compte, rechercher un jeu, ajouter des jeux vidéo en favoris, ajouter un commentaire sur un jeu, liker un commentaire, filtrer les jeux.",
     img: gamepad,
     type: "Application web",
     short: "Web",
@@ -23,10 +23,9 @@ const list = [
   {
     title: "Réplique de Vinted",
     slug: "replique-de-vinted",
-    description:
-      "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
+    description: "Il s'agit d'une réplique simplifiée du site web de Vinted.",
     features:
-      "Fonctionnalités :\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur a la possibilité de créer un compte, publier un article, ajouter un article au panier, acheter un article, rechercher un article, trier par prix,...",
     img: vinted,
     type: "Application web",
     short: "Web",
@@ -39,7 +38,7 @@ const list = [
     description:
       "Il s'agit d'une application web qui recense tous les personnages de Marvel Comics en utilisant l'API de Marvel Developer Portal. ",
     features:
-      "Fonctionnalités :\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur a la possibilité de créer un compte, de rechercher un personnage/comics, d'ajouter des personnages/comics en favoris",
     img: marvel,
     type: "Application web",
     short: "Web",
@@ -50,9 +49,9 @@ const list = [
     title: "Réplique de Deliveroo",
     slug: "replique-de-deliveroo",
     description:
-      "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
+      "Il s'agit d'une réplique simplifiée du site web de Deliveroo.",
     features:
-      "Fonctionnalités :\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur a la possiblité de sélectionner des repas et de passer des paiements.",
     img: deliveroo,
     type: "Application web",
     short: "Web",
@@ -63,9 +62,9 @@ const list = [
     title: "Emoji Search",
     slug: "emoji-search",
     description:
-      "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
+      "Il s'agit d'une application web qui permet de rechercher des emojis.",
     features:
-      "Fonctionnalités :\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur a ensuite la possibilité de copier les emojis sur le presse-papier.",
     img: emoji,
     type: "Application web",
     short: "Web",
@@ -76,9 +75,9 @@ const list = [
     title: "Todo List",
     slug: "todo-list",
     description:
-      "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
+      "Il s'agit d'une application web qui permet de créer une liste de tâches à effectuer.",
     features:
-      "Fonctionnalités :\b\n\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur peut ajouter une tâche, indiquer que la tâche a été effectuée, et enfin la supprimer. Il est possible de switcher du mode Sombre au mode Clair.",
     img: todolist,
     type: "Application web",
     short: "Web",
@@ -89,13 +88,13 @@ const list = [
     title: "Réplique de Airbnb",
     slug: "airbnb-mobile-app",
     description:
-      "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
+      "Il s'agit d'une réplique simplifiée de l'application mobile d'Airbnb.",
     features:
-      "Fonctionnalités :\n- Ajout de jeux vidéo en favoris\n- Ajouter un commentaire sur un jeu",
+      "L'utilisateur doit d'abord créer un compte pour se connecter. En activant la géolocalisation, on peut apercevoir les logements à proximité.",
     img: airbnb,
     type: "Application mobile",
     short: "Mobile",
-    site: "https://react-todo-list-tommy.netlify.app/",
+    site: "https://expo.dev/@tommy211369/airbnb-by-Tommy",
     github: "https://github.com/tommy211369/react-native-airbnb",
   },
 ];
