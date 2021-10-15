@@ -55,6 +55,12 @@ const Project = () => {
             </div>
           )}
         </div>
+
+        {/* Technologies utilisées 
+        <div className="technos">
+      
+        </div> */}
+
         {/* Description du projet */}
         <div className="game-description">
           <p>{project.description}</p>

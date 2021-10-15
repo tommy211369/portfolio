@@ -19,6 +19,7 @@ const list = [
     short: "Web",
     site: "https://gamepad-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/react-gamepad-front",
+    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
   },
   {
     title: "Réplique de Vinted",
@@ -31,6 +32,7 @@ const list = [
     short: "Web",
     site: "https://react-vinted-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/vinted-front",
+    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
   },
   {
     title: "Réplique de Airbnb",
@@ -44,6 +46,7 @@ const list = [
     short: "Mobile",
     site: "https://expo.dev/@tommy211369/airbnb-by-Tommy",
     github: "https://github.com/tommy211369/react-native-airbnb",
+    technos: "React Native, Hooks",
   },
   {
     title: "Marvel",
@@ -57,6 +60,7 @@ const list = [
     short: "Web",
     site: "https://react-marvel-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/reacteur-marvel-front",
+    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
   },
   {
     title: "Réplique de Deliveroo",
@@ -70,6 +74,7 @@ const list = [
     short: "Web",
     site: "https://react-deliveroo-project.netlify.app/",
     github: "https://github.com/tommy211369/react-deliveroo-front",
+    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
   },
   {
     title: "Emoji Search",
@@ -83,6 +88,7 @@ const list = [
     short: "Web",
     site: "https://react-emoji-search-engine.netlify.app/",
     github: "https://github.com/tommy211369/react-emoji-search",
+    technos: "React, Netlify",
   },
   {
     title: "Todo List",
@@ -96,6 +102,7 @@ const list = [
     short: "Web",
     site: "https://react-todo-list-tommy.netlify.app/",
     github: "https://github.com/tommy211369/react-todo-list",
+    technos: "React, Netlify",
   },
 ];
 
