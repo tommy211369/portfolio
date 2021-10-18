@@ -9,7 +9,7 @@ const Project = () => {
   const location = useLocation();
   const project = location.state.project;
   const [projectsList, setProjectsList] = useState([]);
-  const [arrayTechnos, setArrayTechnos] = useState();
+  const [technosList, setTechnosList] = useState();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,14 +20,14 @@ const Project = () => {
     newList.splice(projectIndex, 1);
     setProjectsList(newList);
 
-    const setNewArrayTechnos = async () => {
+    const setArrayTechnos = async () => {
       const arrayProjectTechnos = project.technos.split(",");
       console.log("Les technos du projet : ", arrayProjectTechnos);
-      await setArrayTechnos(arrayProjectTechnos);
+      await setTechnosList(arrayProjectTechnos);
       setLoading(false);
     };
 
-    setNewArrayTechnos();
+    setArrayTechnos();
 
     // console.log("Liste des projets à afficher : ", newList);
   }, [project.slug]);
@@ -70,15 +70,18 @@ const Project = () => {
           )}
         </div>
 
-        {/* Technologies utilisées  */}
+        {/* Technologies et packages utilisés  */}
         <div className="technos">
-          {arrayTechnos.map((techno, index) => {
-            return (
-              <p key={index} className="techno">
-                {techno}
-              </p>
-            );
-          })}
+          <div>
+            {technosList.map((techno, index) => {
+              return (
+                <p key={index} className="techno">
+                  {techno}
+                </p>
+              );
+            })}
+          </div>
+          <p>{project.packages}</p>
         </div>
 
         {/* Description du projet */}

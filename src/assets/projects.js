@@ -13,13 +13,15 @@ const list = [
     description:
       "Il s'agit d'une application web qui recense des milliers de jeux vidéo en utilisant l'API de rawg.io ",
     features:
-      "L'utilisateur a la possibilité de créer un compte, rechercher un jeu, ajouter des jeux vidéo en favoris, ajouter un commentaire sur un jeu, liker un commentaire, filtrer les jeux.",
+      "L' utilisateur a la possibilité de créer un compte, rechercher un jeu, ajouter des jeux vidéo en favoris, ajouter un commentaire sur un jeu, liker un commentaire, filtrer les jeux.",
     img: gamepad,
     type: "Application web",
     short: "Web",
     site: "https://gamepad-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/react-gamepad-front",
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
     title: "Réplique de Vinted",
@@ -33,6 +35,8 @@ const list = [
     site: "https://react-vinted-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/vinted-front",
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API, Stripe",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
     title: "Réplique de Airbnb",
@@ -47,6 +51,8 @@ const list = [
     site: "https://expo.dev/@tommy211369/airbnb-by-Tommy",
     github: "https://github.com/tommy211369/react-native-airbnb",
     technos: "React Native, Hooks",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
     title: "Marvel",
@@ -61,6 +67,8 @@ const list = [
     site: "https://react-marvel-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/reacteur-marvel-front",
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
     title: "Réplique de Deliveroo",
@@ -75,6 +83,8 @@ const list = [
     site: "https://react-deliveroo-project.netlify.app/",
     github: "https://github.com/tommy211369/react-deliveroo-front",
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
     title: "Emoji Search",
@@ -89,6 +99,8 @@ const list = [
     site: "https://react-emoji-search-engine.netlify.app/",
     github: "https://github.com/tommy211369/react-emoji-search",
     technos: "React, Netlify",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
     title: "Todo List",
@@ -103,6 +115,8 @@ const list = [
     site: "https://react-todo-list-tommy.netlify.app/",
     github: "https://github.com/tommy211369/react-todo-list",
     technos: "React, Netlify",
+    packages:
+      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
 ];
 

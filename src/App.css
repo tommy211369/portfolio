@@ -442,15 +442,29 @@ a {
 .technos {
   padding: 20px 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #606060;
+  font-size: 14px;
+}
+
+.technos div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.technos > p {
+  font-style: oblique;
+  color: #a0a0a0;
+  line-height: 18px;
 }
 
 .techno {
-  background-color: #606060;
-  padding: 5px;
-  border-radius: 5px;
+  background-color: #4d4d4d;
+  padding: 10px;
+  border-radius: 20px;
   margin-right: 10px;
+  border: 1px solid #666666;
 }
 
 .game-description {
@@ -461,6 +475,18 @@ a {
 
 .game-description p:last-child {
   margin-top: 20px;
+}
+
+.packages {
+  padding: 20px 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #606060;
+}
+
+.packages p {
+  color: #9b9b9b;
 }
 
 .project .other-projects {

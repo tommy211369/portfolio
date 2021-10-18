@@ -5,7 +5,6 @@ const packages = [
   "material-ui",
   "fontawesome",
   "stripe",
-  "mongoose",
   "dotenv",
   "cors",
   "crypto-js",
