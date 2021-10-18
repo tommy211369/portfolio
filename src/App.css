@@ -374,35 +374,21 @@ a {
 }
 
 /* PROJECT */
-
-.project button {
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  background-color: #8c8c8c;
-  transition: background-color 0.2s ease;
-}
-
 .project {
   display: flex;
   font-family: "Roboto", sans-serif;
 }
 
-.project button:hover {
-  cursor: pointer;
-  background-color: #606060;
-  color: white;
-}
-
 .project .details {
   max-width: 770px;
+  overflow: scroll;
 }
 
 .details img {
   width: 770px;
   height: 405px;
   object-fit: cover;
+  object-position: top;
   padding: 0;
   margin-bottom: 20px;
 }
@@ -453,6 +439,20 @@ a {
   background-color: rgba(127, 0, 0, 0.6);
 }
 
+.technos {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #606060;
+}
+
+.techno {
+  background-color: #606060;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
 .game-description {
   margin-top: 20px;
   box-sizing: border-box;
@@ -465,6 +465,7 @@ a {
 
 .project .other-projects {
   margin-left: 20px;
+  flex: 2;
 }
 
 .project .other-projects a {
@@ -505,6 +506,35 @@ a {
 /* MEDIA QUERIES */
 /*__________________________*/
 
+@media (max-width: 1345px) {
+  .project .other-projects img {
+    margin-right: 0;
+  }
+  .project .other-projects div {
+    display: none;
+  }
+}
+
+@media (max-width: 1240px) {
+  .project {
+    flex-direction: column;
+  }
+  .project .details {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #606060;
+  }
+
+  .project .other-projects {
+    margin-top: 20px;
+  }
+
+  .project .other-projects div {
+    display: block;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 1180px) {
   .header {
     flex-direction: column;
@@ -516,6 +546,22 @@ a {
 
   .header div:last-child {
     margin-top: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1015px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 810px) {
+  .project .details {
+    width: 100%;
+  }
+
+  .project .details img {
     width: 100%;
   }
 }
@@ -534,10 +580,6 @@ a {
 }
 
 @media (max-width: 630px) {
-  .sidebar {
-    display: none;
-  }
-
   .header div:last-child {
     justify-content: center;
   }

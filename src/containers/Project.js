@@ -9,6 +9,8 @@ const Project = () => {
   const location = useLocation();
   const project = location.state.project;
   const [projectsList, setProjectsList] = useState([]);
+  const [arrayTechnos, setArrayTechnos] = useState();
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const newList = [...list];
@@ -17,10 +19,22 @@ const Project = () => {
     // console.log("Projet à retirer de la liste : ", projectToRemoved);
     newList.splice(projectIndex, 1);
     setProjectsList(newList);
+
+    const setNewArrayTechnos = async () => {
+      const arrayProjectTechnos = project.technos.split(",");
+      console.log("Les technos du projet : ", arrayProjectTechnos);
+      await setArrayTechnos(arrayProjectTechnos);
+      setLoading(false);
+    };
+
+    setNewArrayTechnos();
+
     // console.log("Liste des projets à afficher : ", newList);
   }, [project.slug]);
 
-  return (
+  return loading ? (
+    <p>Chargement ...</p>
+  ) : (
     <div className="project pages">
       {/* Details du projet */}
       <div className="details">
@@ -56,10 +70,16 @@ const Project = () => {
           )}
         </div>
 
-        {/* Technologies utilisées 
+        {/* Technologies utilisées  */}
         <div className="technos">
-      
-        </div> */}
+          {arrayTechnos.map((techno, index) => {
+            return (
+              <p key={index} className="techno">
+                {techno}
+              </p>
+            );
+          })}
+        </div>
 
         {/* Description du projet */}
         <div className="game-description">

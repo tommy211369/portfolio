@@ -32,7 +32,7 @@ const list = [
     short: "Web",
     site: "https://react-vinted-by-tommy.netlify.app/",
     github: "https://github.com/tommy211369/vinted-front",
-    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
+    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API, Stripe",
   },
   {
     title: "Réplique de Airbnb",
