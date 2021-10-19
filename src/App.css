@@ -260,6 +260,16 @@ a {
   background-color: #3f3f3f;
   z-index: 1000;
   transition: all 0.2s ease;
+  animation: apparition 0.2s ease;
+}
+
+@keyframes apparition {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .menu-bars a {
