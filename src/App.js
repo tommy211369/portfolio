@@ -7,6 +7,8 @@ import {
   faLightbulb,
   faSignInAlt,
   faExclamationTriangle,
+  faBars,
+  faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import Cookies from "js-cookie";
@@ -18,7 +20,9 @@ library.add(
   faUserCircle,
   faLightbulb,
   faSignInAlt,
-  faExclamationTriangle
+  faExclamationTriangle,
+  faBars,
+  faTimesCircle
 );
 
 function App() {

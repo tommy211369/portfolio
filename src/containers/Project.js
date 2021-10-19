@@ -22,7 +22,7 @@ const Project = () => {
 
     const setArrayTechnos = async () => {
       const arrayProjectTechnos = project.technos.split(",");
-      console.log("Les technos du projet : ", arrayProjectTechnos);
+      // console.log("Les technos du projet : ", arrayProjectTechnos);
       await setTechnosList(arrayProjectTechnos);
       setLoading(false);
     };
@@ -106,6 +106,7 @@ const Project = () => {
               <div>
                 <h1>{project.title}</h1>
                 <p>{project.type}</p>
+                <p>{project.description}</p>
               </div>
             </Link>
           );
