@@ -696,6 +696,15 @@ a {
   }
 }
 
+@media (max-width: 575px) {
+  .project .other-projects a {
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777777;
+  }
+}
+
 @media (max-width: 568px) {
   .header {
     width: 100%;
@@ -725,6 +734,17 @@ a {
 @media (max-width: 470px) {
   .header div:first-child span:last-child {
     font-size: 15px;
+  }
+
+  .current-project,
+  .next-project {
+    flex-direction: column;
+  }
+
+  .next-project {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777777;
   }
 }
 
