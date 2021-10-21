@@ -42,8 +42,8 @@ const About = ({ username }) => {
         mes différents projets.
       </p>
       <p>
-        Mon aventure dans le code ne fait que commencer. J'ai cependant un seul
-        regret : ne pas l'avoir commencée plus tôt !
+        Mon aventure dans le code ne fait que commencer. <br></br>
+        J'ai cependant un seul regret : ne pas l'avoir commencée plus tôt !
       </p>
     </div>
   );

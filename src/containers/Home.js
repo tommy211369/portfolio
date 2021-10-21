@@ -22,7 +22,7 @@ const Home = ({ username, setUsername }) => {
         </div>
       ) : (
         <Router>
-          <Header />
+          <Header setUsername={setUsername} />
 
           <div className="main-content">
             <Sidebar />
@@ -34,7 +34,7 @@ const Home = ({ username, setUsername }) => {
                 <Project />
               </Route>
               <Route exact path="/">
-                <About setUsername={setUsername} username={username} />
+                <About username={username} />
               </Route>
             </Switch>
           </div>

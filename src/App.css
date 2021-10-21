@@ -725,6 +725,9 @@ a {
     padding: 5px;
     width: 100%;
   }
+  .about {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 540px) {
