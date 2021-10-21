@@ -17,18 +17,19 @@ const Menubars = ({ handleLogOut, setShowMenuBars }) => {
           setShowMenuBars(false);
         }}
       >
-        <FontAwesomeIcon icon="tasks" className="fontawesome-icon" />
-        <p>Mes projets</p>
+        <FontAwesomeIcon icon="lightbulb" className="fontawesome-icon" />
+        <p>À propos</p>
       </Link>
       <Link
-        to="/about"
+        to="/projects"
         onClick={() => {
           setShowMenuBars(false);
         }}
       >
-        <FontAwesomeIcon icon="lightbulb" className="fontawesome-icon" />
-        <p>À propos</p>
+        <FontAwesomeIcon icon="tasks" className="fontawesome-icon" />
+        <p>Mes projets</p>
       </Link>
+
       <button onClick={handleLogOut}>Quitter</button>
     </div>
   );

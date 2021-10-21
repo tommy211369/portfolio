@@ -22,19 +22,19 @@ const Home = ({ username, setUsername }) => {
         </div>
       ) : (
         <Router>
-          <Header setUsername={setUsername} username={username} />
+          <Header />
 
           <div className="main-content">
             <Sidebar />
             <Switch>
-              <Route exact path="/about">
-                <About />
+              <Route exact path="/projects">
+                <Projects />
               </Route>
               <Route exact path="/project/:slug">
                 <Project />
               </Route>
               <Route exact path="/">
-                <Projects />
+                <About setUsername={setUsername} username={username} />
               </Route>
             </Switch>
           </div>

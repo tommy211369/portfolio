@@ -193,7 +193,7 @@ a {
   border-bottom: 1px solid #606060;
 }
 
-.header div {
+.header div:first-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -213,7 +213,10 @@ a {
 }
 
 .header div:nth-child(2) {
-  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
 }
 
 .header div:nth-child(2) p {
@@ -250,6 +253,8 @@ a {
 .menu-bars {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   visibility: hidden;
   position: absolute;
   padding: 15px;
@@ -330,6 +335,18 @@ a {
   color: white;
   background-color: #181818;
   padding: 20px;
+}
+
+/* ABOUT */
+.about h1 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 25px;
 }
 
 /* PROJECTS */
@@ -636,17 +653,12 @@ a {
 }
 
 @media (max-width: 1180px) {
-  .header {
-    flex-direction: column;
-  }
-
   .header div:first-child {
     justify-content: flex-start;
   }
 
-  .header div:nth-child(2) {
-    margin-top: 20px;
-    width: 100%;
+  .menu-bars {
+    width: 300px;
   }
 }
 
@@ -687,12 +699,11 @@ a {
 }
 
 @media (max-width: 680px) {
+  .header {
+    justify-content: center;
+  }
   .header div:first-child {
     flex-direction: column;
-  }
-
-  .header div:nth-child(2) {
-    justify-content: center;
   }
 }
 
