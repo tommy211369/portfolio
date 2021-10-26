@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
 import Projects from "./Projects";
 import About from "./About";
@@ -38,6 +39,7 @@ const Home = ({ username, setUsername }) => {
               </Route>
             </Switch>
           </div>
+          <Footer />
         </Router>
       )}
     </div>
