@@ -808,11 +808,12 @@ a {
   }
 
   .stack {
+    margin-top: 100px;
     width: 100%;
   }
 
   .contact {
-    margin-top: 100px;
+    margin-top: 200px;
     width: max-content;
     justify-content: center;
   }
