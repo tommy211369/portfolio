@@ -3,7 +3,9 @@
 /* header / sidebar background : #212121 */
 /* pages background : #181818 */
 
+/* ------------------------------------ */
 /* APP */
+/* ------------------------------------ */
 .app {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
@@ -21,7 +23,9 @@ a {
   margin-right: 10px;
 }
 
+/* ------------------------------------ */
 /* LOGIN */
+/* ------------------------------------ */
 .login {
   position: relative;
   min-height: 100vh;
@@ -173,7 +177,9 @@ a {
   color: yellow;
 }
 
+/* ------------------------------------ */
 /* LOADING SPINNER */
+/* ------------------------------------ */
 .loading-spinner {
   min-height: 100vh;
   background-color: #181818;
@@ -182,7 +188,9 @@ a {
   justify-content: center;
 }
 
+/* ------------------------------------ */
 /* HEADER */
+/* ------------------------------------ */
 .header {
   position: relative;
   display: flex;
@@ -304,12 +312,16 @@ a {
   color: #7f0000;
 }
 
+/* ------------------------------------ */
 /* MAIN CONTENT */
+/* ------------------------------------ */
 .main-content {
   display: flex;
 }
 
+/* ------------------------------------ */
 /* SIDEBAR */
+/* ------------------------------------ */
 .sidebar {
   display: flex;
   min-width: 220px;
@@ -329,7 +341,9 @@ a {
   background-color: #606060;
 }
 
+/* ------------------------------------ */
 /* PAGES */
+/* ------------------------------------ */
 .pages {
   flex: 1;
   color: white;
@@ -337,7 +351,9 @@ a {
   padding: 20px;
 }
 
+/* ------------------------------------ */
 /* ABOUT */
+/* ------------------------------------ */
 .about h1 {
   font-size: 20px;
   margin-bottom: 40px;
@@ -567,7 +583,9 @@ a {
   line-height: 18px;
 }
 
+/* __________________________________ */
 /* PROJECT */
+/* __________________________________ */
 .project {
   display: flex;
   font-family: "Roboto", sans-serif;
