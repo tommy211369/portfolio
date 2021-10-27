@@ -6,7 +6,6 @@ import react from "../assets/img/react.png";
 import redux from "../assets/img/redux.png";
 import next from "../assets/img/next.png";
 import graphql from "../assets/img/graphql.png";
-import gatsby from "../assets/img/gatsby.png";
 import jest from "../assets/img/jest.png";
 import nodejs from "../assets/img/nodejs.png";
 import express from "../assets/img/express1.png";
@@ -28,7 +27,6 @@ const Stack = () => {
         <Logo techno={react} stack="React & React Native" />
         <Logo techno={redux} stack="Redux" />
         <Logo techno={next} stack="" />
-        <Logo techno={gatsby} stack="Gatsby" />
         <Logo techno={graphql} stack="GraphQL" />
         <Logo techno={jest} stack="Jest" />
         <Logo techno={nodejs} stack="Node.js" />
