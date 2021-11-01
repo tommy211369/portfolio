@@ -206,6 +206,16 @@ a {
   justify-content: space-between;
   align-items: center;
   min-width: 300px;
+  animation: slideRight 2s ease;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .header div:first-child span:first-child {
@@ -220,11 +230,22 @@ a {
   font-size: 20px;
 }
 
+/* button */
 .header div:nth-child(2) {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: max-content;
+  animation: opacity 3s ease;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .header div:nth-child(2) p {
@@ -276,24 +297,15 @@ a {
   background-color: #3f3f3f;
   z-index: 1000;
   transition: all 0.5s ease;
-  animation: apparition 0.3s ease;
+  animation: slideLeft 0.3s ease;
 }
 
-@keyframes apparition {
+@keyframes slideLeft {
   from {
-    transform: translateX(300%);
+    transform: translateX(200%);
   }
   to {
     transform: translateX(0);
-  }
-}
-
-@keyframes disparition {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(300%);
   }
 }
 
@@ -347,6 +359,7 @@ a {
   padding: 13px;
   transition: background-color 0.2s ease;
   display: flex;
+  animation: opacity 4s ease;
 }
 
 .sidebar a:hover {
@@ -369,6 +382,7 @@ a {
 .about h1 {
   font-size: 20px;
   margin-bottom: 40px;
+  animation: slideLeft 2s ease;
 }
 
 .about p {
@@ -383,6 +397,7 @@ a {
   font-size: 30px;
   line-height: 50px;
   margin: 150px 0;
+  animation: slideLeft 2.5s ease;
 }
 
 .about .first-p span {
@@ -414,6 +429,7 @@ a {
 .about .details {
   display: flex;
   justify-content: space-between;
+  animation: slideLeft 3s ease;
 }
 
 .about .details div {

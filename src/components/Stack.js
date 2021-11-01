@@ -13,27 +13,30 @@ import netlify from "../assets/img/netlify.png";
 import heroku from "../assets/img/heroku.png";
 import git from "../assets/img/git.png";
 import Logo from "./Logo";
+import Fade from "react-reveal/Fade";
 
 function Stack() {
   return (
     <div className="stack">
-      <h3>Ma Stack</h3>
-      <div>
-        <Logo techno={html} stack="HTML" />
-        <Logo techno={css} stack="CSS" />
-        <Logo techno={js} stack="JavaScript" />
-        <Logo techno={typescript} stack="TypeScript" />
-        <Logo techno={react} stack="React & React Native" />
-        <Logo techno={redux} stack="Redux" />
-        <Logo techno={next} stack="" />
-        <Logo techno={graphql} stack="GraphQL" />
-        <Logo techno={nodejs} stack="Node.js" />
-        <Logo techno={express} stack="" />
-        <Logo techno={mongodb} stack="MongoDB" />
-        <Logo techno={netlify} stack="" />
-        <Logo techno={heroku} stack="" />
-        <Logo techno={git} stack="Git" />
-      </div>
+      <Fade bottom>
+        <h3>Ma Stack</h3>
+        <div>
+          <Logo techno={html} stack="HTML" />
+          <Logo techno={css} stack="CSS" />
+          <Logo techno={js} stack="JavaScript" />
+          <Logo techno={typescript} stack="TypeScript" />
+          <Logo techno={react} stack="React & React Native" />
+          <Logo techno={redux} stack="Redux" />
+          <Logo techno={next} stack="" />
+          <Logo techno={graphql} stack="GraphQL" />
+          <Logo techno={nodejs} stack="Node.js" />
+          <Logo techno={express} stack="" />
+          <Logo techno={mongodb} stack="MongoDB" />
+          <Logo techno={netlify} stack="" />
+          <Logo techno={heroku} stack="" />
+          <Logo techno={git} stack="Git" />
+        </div>
+      </Fade>
     </div>
   );
 }

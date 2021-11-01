@@ -57,7 +57,9 @@ function About({ username }) {
             utiliser ensuite dans mes différents projets.
           </p>
           <p>
-            Mon aventure dans le code ne fait que commencer. <br></br>
+            Je suis toujours désireux d'apprendre auprès d'autres développeurs
+            pour monter en compétences. En effet, mon aventure dans le code ne
+            fait que commencer. <br></br>
             J'ai cependant un seul regret : ne pas l'avoir commencée plus tôt !
           </p>
         </div>
