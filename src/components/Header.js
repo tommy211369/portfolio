@@ -13,6 +13,7 @@ const Header = ({ setUsername }) => {
     setUsername("");
     Cookies.remove("username");
   };
+
   return (
     <div className="header">
       <div>
