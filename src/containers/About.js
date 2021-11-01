@@ -49,13 +49,21 @@ function About({ username }) {
             l'on se concentre sur la <span>MERN stack</span> : exactement ce que
             je cherchais !
           </p>
-          <p>
+
+          {/* <p>
             Depuis ma formation, je prends du plaisir à apprendre de nouvelles
             choses, comme le framework <span>Next.js</span>, les test unitaires
             avec <span>Jest</span>, la méthode <span>Agile Scrum</span> ou
             encore de nouveaux langages comme <span>TypeScript</span> pour les
             utiliser ensuite dans mes différents projets.
+          </p> */}
+
+          <p>
+            Depuis ma formation, je prends du plaisir à apprendre de nouvelles
+            choses, de nouveaux langages pour les utiliser ensuite dans mes
+            différents projets.
           </p>
+
           <p>
             Je suis toujours désireux d'apprendre auprès d'autres développeurs
             pour monter en compétences. En effet, mon aventure dans le code ne
