@@ -14,7 +14,7 @@ function About({ username }) {
       <p className="first-p">
         Je m'appelle <br></br>
         <span>Tommy Thongrasamy</span>.<br></br>
-        Je suis développeur fullstack React & Node.<br></br>
+        Je suis développeur fullstack JavaScript (React & Node).<br></br>
         {/* <a href={file} download>
           Mon CV
   </a> */}
@@ -51,10 +51,10 @@ function About({ username }) {
           </p>
           <p>
             Depuis ma formation, je prends du plaisir à apprendre de nouvelles
-            choses, comme les test unitaires avec <span>Jest</span>, la méthode{" "}
-            <span>Agile Scrum</span> ou encore de nouveaux langages comme{" "}
-            <span>TypeScript</span> pour les utiliser ensuite dans mes
-            différents projets.
+            choses, comme le framework <span>Next.js</span>, les test unitaires
+            avec <span>Jest</span>, la méthode <span>Agile Scrum</span> ou
+            encore de nouveaux langages comme <span>TypeScript</span> pour les
+            utiliser ensuite dans mes différents projets.
           </p>
           <p>
             Mon aventure dans le code ne fait que commencer. <br></br>

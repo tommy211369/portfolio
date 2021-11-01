@@ -18,7 +18,7 @@ function Header({ setUsername }) {
     <div className="header">
       <div>
         <span>Tommy Thongrasamy</span> &nbsp;
-        <span>Développeur Fullstack React & Node</span>
+        <span>Développeur Fullstack JavaScript (React & Node)</span>
       </div>
 
       <div>
