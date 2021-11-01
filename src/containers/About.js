@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import tommy from "../assets/img/tommy.jpg";
 import Stack from "../components/Stack";
 import Contact from "../components/Contact";
+import file from "../assets/img/airbnb.jpg";
 
 const About = ({ username }) => {
   return (
@@ -13,7 +14,10 @@ const About = ({ username }) => {
       <p className="first-p">
         Je m'appelle <br></br>
         <span>Tommy Thongrasamy</span>.<br></br>
-        Je suis développeur fullstack Web & Mobile.
+        Je suis développeur fullstack React & Node.<br></br>
+        {/* <a href={file} download>
+          Mon CV
+  </a> */}
       </p>
 
       <div className="details">

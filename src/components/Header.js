@@ -18,7 +18,7 @@ const Header = ({ setUsername }) => {
     <div className="header">
       <div>
         <span>Tommy Thongrasamy</span> &nbsp;
-        <span>Développeur Fullstack Web & Mobile</span>
+        <span>Développeur Fullstack React & Node</span>
       </div>
 
       <div>
