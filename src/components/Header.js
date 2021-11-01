@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import MenuBars from "./MenuBars";
 
-const Header = ({ setUsername }) => {
+function Header({ setUsername }) {
   const [showMenuBars, setShowMenuBars] = useState(false);
   const history = useHistory();
 
@@ -43,6 +43,6 @@ const Header = ({ setUsername }) => {
       )}
     </div>
   );
-};
+}
 
 export default Header;

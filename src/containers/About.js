@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import tommy from "../assets/img/tommy.jpg";
 import Stack from "../components/Stack";
 import Contact from "../components/Contact";
-import file from "../assets/img/airbnb.jpg";
+// import file from "../assets/img/airbnb.jpg";
 
-const About = ({ username }) => {
+function About({ username }) {
   return (
     <div className="about pages">
       <h1>
@@ -51,8 +51,10 @@ const About = ({ username }) => {
           </p>
           <p>
             Depuis ma formation, je prends du plaisir à apprendre de nouvelles
-            choses, des nouvelles technos et langages pour les utiliser ensuite
-            dans mes différents projets.
+            choses, comme les test unitaires avec <span>Jest</span>, la méthode{" "}
+            <span>Agile Scrum</span> ou encore de nouveaux langages comme{" "}
+            <span>TypeScript</span> pour les utiliser ensuite dans mes
+            différents projets.
           </p>
           <p>
             Mon aventure dans le code ne fait que commencer. <br></br>
@@ -72,6 +74,6 @@ const About = ({ username }) => {
       </div>
     </div>
   );
-};
+}
 
 export default About;

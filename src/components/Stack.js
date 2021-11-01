@@ -6,7 +6,6 @@ import react from "../assets/img/react.png";
 import redux from "../assets/img/redux.png";
 import next from "../assets/img/next.png";
 import graphql from "../assets/img/graphql.png";
-import jest from "../assets/img/jest.png";
 import nodejs from "../assets/img/nodejs.png";
 import express from "../assets/img/express1.png";
 import mongodb from "../assets/img/mongodb.png";
@@ -15,7 +14,7 @@ import heroku from "../assets/img/heroku.png";
 import git from "../assets/img/git.png";
 import Logo from "./Logo";
 
-const Stack = () => {
+function Stack() {
   return (
     <div className="stack">
       <h3>Ma Stack</h3>
@@ -28,7 +27,6 @@ const Stack = () => {
         <Logo techno={redux} stack="Redux" />
         <Logo techno={next} stack="" />
         <Logo techno={graphql} stack="GraphQL" />
-        <Logo techno={jest} stack="Jest" />
         <Logo techno={nodejs} stack="Node.js" />
         <Logo techno={express} stack="" />
         <Logo techno={mongodb} stack="MongoDB" />
@@ -38,6 +36,6 @@ const Stack = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Stack;

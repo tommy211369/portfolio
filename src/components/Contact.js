@@ -2,7 +2,7 @@ import linkedin from "../assets/img/linkedin.png";
 import github from "../assets/img/github.png";
 import gmail from "../assets/img/gmail.png";
 
-const Contact = () => {
+function Contact() {
   return (
     <div className="contact">
       <h3>Me contacter</h3>
@@ -23,6 +23,6 @@ const Contact = () => {
       </a>
     </div>
   );
-};
+}
 
 export default Contact;

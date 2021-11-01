@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Login = ({ setUserCookie }) => {
+function Login({ setUserCookie }) {
   const [user, setUser] = useState("");
   const [showAlert, setShowAlert] = useState(false);
 
@@ -53,6 +53,6 @@ const Login = ({ setUserCookie }) => {
       )}
     </div>
   );
-};
+}
 
 export default Login;

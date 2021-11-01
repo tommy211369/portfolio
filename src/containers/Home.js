@@ -8,7 +8,7 @@ import About from "./About";
 import Project from "./Project";
 import Spinner from "../components/Spinner";
 
-const Home = ({ username, setUsername }) => {
+function Home({ username, setUsername }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -44,6 +44,6 @@ const Home = ({ username, setUsername }) => {
       )}
     </div>
   );
-};
+}
 
 export default Home;

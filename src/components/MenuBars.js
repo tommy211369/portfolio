@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-const Menubars = ({ handleLogOut, setShowMenuBars }) => {
+function Menubars({ handleLogOut, setShowMenuBars }) {
   return (
     <div className="menu-bars">
       <FontAwesomeIcon
@@ -33,6 +33,6 @@ const Menubars = ({ handleLogOut, setShowMenuBars }) => {
       <button onClick={handleLogOut}>Quitter</button>
     </div>
   );
-};
+}
 
 export default Menubars;

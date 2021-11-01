@@ -3,7 +3,7 @@ import list from "../assets/projects";
 import next from "../assets/next";
 import currentProject from "../assets/currently";
 
-const Projects = () => {
+function Projects() {
   return (
     <div className="projects pages">
       {/* Affichage des différents projets */}
@@ -62,6 +62,6 @@ const Projects = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Projects;

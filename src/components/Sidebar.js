@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// ajouter logos devant chaque liens
-
-const Sidebar = () => {
+function Sidebar() {
   return (
     <nav className="sidebar">
       <Link to="/">
@@ -17,6 +15,6 @@ const Sidebar = () => {
       </Link>
     </nav>
   );
-};
+}
 
 export default Sidebar;

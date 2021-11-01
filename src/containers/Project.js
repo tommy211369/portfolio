@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import QrCode2Icon from "@mui/icons-material/QrCode2";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-const Project = () => {
+function Project() {
   const location = useLocation();
   const project = location.state.project;
   const [projectsList, setProjectsList] = useState([]);
@@ -114,6 +114,6 @@ const Project = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Project;
