@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Project from "./Project";
 import Spinner from "../components/Spinner";
+import ScrollToTop from "../components/ScrollToTop";
 
 function Home({ username, setUsername }) {
   const [loading, setLoading] = useState(true);
@@ -23,10 +24,12 @@ function Home({ username, setUsername }) {
         </div>
       ) : (
         <Router>
+          <ScrollToTop />
           <Header setUsername={setUsername} />
 
           <div className="main-content">
             <Sidebar />
+
             <Switch>
               <Route exact path="/projects">
                 <Projects />
