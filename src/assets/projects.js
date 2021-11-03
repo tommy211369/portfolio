@@ -28,7 +28,7 @@ const list = [
     slug: "replique-de-vinted",
     description: "Il s'agit d'une réplique simplifiée du site web de Vinted.",
     features:
-      "L'utilisateur a la possibilité de créer un compte, publier un article, ajouter un article au panier, acheter un article, rechercher un article, trier par prix,...",
+      "L'utilisateur a la possibilité de créer un compte, publier un article, ajouter un article au panier, acheter un article, rechercher un article, filtrer les articles par prix, trier par prix croissant ou décroissant,...",
     img: vinted,
     type: "Application web",
     short: "Web",
@@ -83,8 +83,7 @@ const list = [
     site: "https://react-deliveroo-project.netlify.app/",
     github: "https://github.com/tommy211369/react-deliveroo-front",
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
-    packages:
-      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
+    packages: "material-ui, fontawesome",
   },
   {
     title: "Emoji Search",

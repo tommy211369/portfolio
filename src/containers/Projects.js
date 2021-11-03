@@ -8,18 +8,19 @@ function Projects() {
   return (
     <div className="projects pages">
       {/* Affichage des différents projets */}
-      <Fade right>
-        <div className="projects-list">
-          {list.map((item, index) => {
-            return (
-              <Link
-                to={{
-                  pathname: `/project/${item.slug}`,
-                  state: { project: item },
-                }}
-                className="project-link"
-                key={index}
-              >
+
+      <div className="projects-list">
+        {list.map((item, index) => {
+          return (
+            <Link
+              to={{
+                pathname: `/project/${item.slug}`,
+                state: { project: item },
+              }}
+              className="project-link"
+              key={index}
+            >
+              <Fade bottom>
                 <img src={item.img} alt={item.title} />
                 <div
                   style={{
@@ -31,11 +32,12 @@ function Projects() {
                   <h2>{item.title}</h2>
                   <h3>{item.short}</h3>
                 </div>
-              </Link>
-            );
-          })}
-        </div>
-      </Fade>
+              </Fade>
+            </Link>
+          );
+        })}
+      </div>
+
       <hr></hr>
       <h1>Projets en cours ...</h1>
       <Fade bottom>

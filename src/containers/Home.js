@@ -8,6 +8,7 @@ import About from "./About";
 import Project from "./Project";
 import Spinner from "../components/Spinner";
 import ScrollToTop from "../components/ScrollToTop";
+import ScrollUp from "../components/ScrollUp";
 
 function Home({ username, setUsername }) {
   const [loading, setLoading] = useState(true);
@@ -41,6 +42,7 @@ function Home({ username, setUsername }) {
                 <About username={username} />
               </Route>
             </Switch>
+            <ScrollUp />
           </div>
           <Footer />
         </Router>
