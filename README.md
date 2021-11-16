@@ -6,7 +6,7 @@ My personal portfolio
 Follow this link to check my portfolio : https://tommy-thongrasamy-portfolio.netlify.app/
 
 ## About this project
-I started working on my portfolio on September 2021.  
+I started working on my portfolio on September 2021 and it is made with React.
 You can see all the projects that I made, the project I am currently working on and my future projects.
 
 ## Screenshots
