@@ -800,6 +800,7 @@ a {
   border: 1px solid #7f0000;
   padding: 3px;
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
 .scrollUp:hover {
   background-color: rgba(127, 0, 0, 0.6);

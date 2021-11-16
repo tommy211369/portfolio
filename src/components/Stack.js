@@ -3,7 +3,7 @@ import css from "../assets/img/css.png";
 import js from "../assets/img/js.png";
 // import typescript from "../assets/img/typescript.png";
 import react from "../assets/img/react.png";
-// import redux from "../assets/img/redux.png";
+import redux from "../assets/img/redux.png";
 // import next from "../assets/img/next.png";
 // import graphql from "../assets/img/graphql.png";
 import nodejs from "../assets/img/nodejs.png";
@@ -26,7 +26,7 @@ function Stack() {
           <Logo techno={js} stack="JavaScript" />
           {/* <Logo techno={typescript} stack="TypeScript" /> */}
           <Logo techno={react} stack="React & React Native" />
-          {/* <Logo techno={redux} stack="Redux" /> */}
+          <Logo techno={redux} stack="Redux" />
           {/* <Logo techno={next} stack="" /> */}
           {/* <Logo techno={graphql} stack="GraphQL" /> */}
           <Logo techno={nodejs} stack="Node.js" />
