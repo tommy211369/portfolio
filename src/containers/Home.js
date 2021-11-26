@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
+import routes from "../routes";
+
+// Components
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
@@ -32,13 +35,13 @@ function Home({ username, setUsername }) {
             <Sidebar />
 
             <Switch>
-              <Route exact path="/projects">
+              <Route exact path={routes.PROJECTS}>
                 <Projects />
               </Route>
-              <Route exact path="/project/:slug">
+              <Route exact path={routes.PROJECTS + "/:slug"}>
                 <Project />
               </Route>
-              <Route exact path="/">
+              <Route exact path={routes.ABOUT}>
                 <About username={username} />
               </Route>
             </Switch>

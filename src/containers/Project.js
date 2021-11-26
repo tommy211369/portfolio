@@ -4,6 +4,7 @@ import list from "../assets/projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import QrCode2Icon from "@mui/icons-material/QrCode2";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import routes from "../routes";
 
 function Project() {
   const location = useLocation();
@@ -38,7 +39,7 @@ function Project() {
     <div className="project pages">
       {/* Details du projet */}
       <div className="details">
-        <img src={project.img} alt={`${project.slug}`} />
+        <img src={project.img} alt={project.slug} />
         <div className="title">
           <a href={project.site} target="blank">
             <h2>{project.title}</h2>
@@ -98,7 +99,7 @@ function Project() {
             <Link
               key={project.slug}
               to={{
-                pathname: `/project/${project.slug}`,
+                pathname: routes.PROJECTS + `/${project.slug}`,
                 state: { project: project },
               }}
             >

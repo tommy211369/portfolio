@@ -18,7 +18,7 @@ const list = [
     type: "Application web",
     short: "Web",
     site: "https://gamepad-by-tommy.netlify.app/",
-    github: "https://github.com/tommy211369/react-gamepad-front",
+    github: "https://github.com/tommy211369/gamepad-front",
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
     packages:
       "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",

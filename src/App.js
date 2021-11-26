@@ -1,3 +1,4 @@
+// Librairies
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -12,8 +13,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import Cookies from "js-cookie";
+
+// Components
 import Home from "./containers/Home";
 import Login from "./containers/Login";
+
 library.add(
   faTasks,
   faCode,

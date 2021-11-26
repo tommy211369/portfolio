@@ -19,9 +19,9 @@ import Fade from "react-reveal/Fade";
 function Stack() {
   return (
     <div className="stack">
-      <Fade bottom>
+      <Fade left>
         <h3>Ma Stack</h3>
-        <div>
+        <div className="animate__animated animate__bounce">
           <Logo techno={html} stack="HTML" />
           <Logo techno={css} stack="CSS" />
           <Logo techno={js} stack="JavaScript" />

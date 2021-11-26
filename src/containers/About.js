@@ -1,14 +1,16 @@
+// Librairies
 import { Link } from "react-router-dom";
 import tommy from "../assets/img/tommy.jpg";
+
+// Components
 import Stack from "../components/Stack";
 import Contact from "../components/Contact";
-import Fade from "react-reveal/Fade";
-// import file from "../assets/img/airbnb.jpg";
+import Fade from "react-awesome-reveal";
 
 function About({ username }) {
   return (
     <div className="about pages">
-      <Fade bottom>
+      <Fade cascade>
         <h1>
           Bonjour <span>{username}</span> !
         </h1>

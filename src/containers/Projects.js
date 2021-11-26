@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import list from "../assets/projects";
 import next from "../assets/next";
 import currentProject from "../assets/currently";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
+import routes from "../routes";
 
 function Projects() {
   return (
@@ -14,13 +15,13 @@ function Projects() {
           return (
             <Link
               to={{
-                pathname: `/project/${item.slug}`,
+                pathname: routes.PROJECTS + `/${item.slug}`,
                 state: { project: item },
               }}
               className="project-link"
               key={index}
             >
-              <Fade bottom>
+              <Fade cascade>
                 <img src={item.img} alt={item.title} />
                 <div
                   style={{
@@ -56,7 +57,7 @@ function Projects() {
         {next.map((item, index) => {
           return (
             <div key={index} className="next-project">
-              <Fade bottom>
+              <Fade cascade>
                 <div>
                   <img src={item.img} alt={item.title} />
                 </div>
