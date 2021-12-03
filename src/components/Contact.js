@@ -1,12 +1,12 @@
 import linkedin from "../assets/img/linkedin.png";
 import github from "../assets/img/github.png";
 import gmail from "../assets/img/gmail.png";
-import Fade from "react-awesome-reveal";
+import Fade from "react-reveal/Fade";
 
 function Contact() {
   return (
     <div className="contact">
-      <Fade cascade>
+      <Fade bottom>
         <h3>Me contacter</h3>
 
         <a href="https://www.linkedin.com/in/tommy-thongrasamy/" target="blank">

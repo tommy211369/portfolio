@@ -5,12 +5,12 @@ import tommy from "../assets/img/tommy.jpg";
 // Components
 import Stack from "../components/Stack";
 import Contact from "../components/Contact";
-import Fade from "react-awesome-reveal";
+import Fade from "react-reveal/Fade";
 
 function About({ username }) {
   return (
     <div className="about pages">
-      <Fade cascade>
+      <Fade bottom>
         <h1>
           Bonjour <span>{username}</span> !
         </h1>

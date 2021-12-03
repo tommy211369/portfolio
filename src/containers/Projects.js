@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import list from "../assets/projects";
 import next from "../assets/next";
 import currentProject from "../assets/currently";
-import Fade from "react-awesome-reveal";
+import Fade from "react-reveal/Fade";
 import routes from "../routes";
 
 function Projects() {
@@ -21,7 +21,7 @@ function Projects() {
               className="project-link"
               key={index}
             >
-              <Fade cascade>
+              <Fade bottom>
                 <img src={item.img} alt={item.title} />
                 <div
                   style={{
@@ -57,7 +57,7 @@ function Projects() {
         {next.map((item, index) => {
           return (
             <div key={index} className="next-project">
-              <Fade cascade>
+              <Fade bottom>
                 <div>
                   <img src={item.img} alt={item.title} />
                 </div>
