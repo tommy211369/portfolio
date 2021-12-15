@@ -16,3 +16,34 @@
   width: 90px;
   margin-bottom: 7px;
 }
+
+.stack {
+  width: 40%;
+}
+
+.stack h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/*__________________________*/
+/* MEDIA QUERIES */
+/*__________________________*/
+
+@media (max-width: 1145px) {
+  .stack {
+    margin-top: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .stack img {
+    width: 50px;
+  }
+
+  .stack p {
+    font-size: 12px;
+  }
+}

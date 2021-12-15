@@ -54,3 +54,19 @@
   cursor: pointer;
   color: #7f0000;
 }
+
+/*__________________________*/
+/* MEDIA QUERIES */
+/*__________________________*/
+
+@media (max-width: 1180px) {
+  .menu-bars {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1015px) {
+  .menu-bars {
+    visibility: visible;
+  }
+}

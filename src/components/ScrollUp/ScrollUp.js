@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollUp from "react-scroll-up";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import "./ScrollUp.css";
 
 export default function Scroll() {
   return (

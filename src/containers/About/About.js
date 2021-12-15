@@ -1,11 +1,11 @@
 // Librairies
 import { Link } from "react-router-dom";
-import tommy from "../assets/img/tommy.jpg";
+import tommy from "../../assets/img/tommy.jpg";
 import "./About.css";
 
 // Components
 import Stack from "../../components/Stack/Stack";
-import Contact from "../../components/Contact";
+import Contact from "../../components/Contact/Contact";
 import Fade from "react-reveal/Fade";
 
 function About({ username }) {

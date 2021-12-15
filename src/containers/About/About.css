@@ -90,14 +90,41 @@
   justify-content: space-between;
 }
 
-.stack,
-.contact {
-  width: 40%;
+/*__________________________*/
+/* MEDIA QUERIES */
+/*__________________________*/
+
+@media (max-width: 1145px) {
+  .about .details {
+    flex-direction: column-reverse;
+  }
+
+  .about .details div {
+    margin-right: 0;
+  }
+
+  .about .details img {
+    margin: 0 auto 30px auto;
+  }
+
+  .stack-and-contact {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.stack h3,
-.contact h3 {
-  font-size: 25px;
-  margin-bottom: 50px;
-  text-align: center;
+@media (max-width: 400px) {
+  .about h1,
+  .about .first-p {
+    font-size: 20px;
+  }
+
+  .about .first-p span {
+    font-size: 30px;
+  }
+
+  .about .details img {
+    max-width: 240px;
+    max-height: 250px;
+  }
 }

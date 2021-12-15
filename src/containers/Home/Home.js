@@ -5,14 +5,14 @@ import "./Home.css";
 
 // Components
 import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer";
-import Sidebar from "../../components/Sidebar";
-import Projects from "../Projects";
-import About from "../About";
-import Project from "../Project";
+import Footer from "../../components/Footer/Footer";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Projects from "../Projects/Projects";
+import About from "../About/About";
+import Project from "../Project/Project";
 import Spinner from "../../components/Spinner";
 import ScrollToTop from "../../components/ScrollToTop";
-import ScrollUp from "../../components/ScrollUp";
+import ScrollUp from "../../components/ScrollUp/ScrollUp";
 
 function Home({ username, setUsername }) {
   const [loading, setLoading] = useState(true);

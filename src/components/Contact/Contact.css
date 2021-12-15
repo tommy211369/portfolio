@@ -2,6 +2,16 @@
   width: 50px;
 }
 
+.contact {
+  width: 40%;
+}
+
+.contact h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .contact a {
   display: flex;
   align-items: center;
@@ -18,4 +28,30 @@
 
 .contact img {
   margin-right: 15px;
+}
+
+/*__________________________*/
+/* MEDIA QUERIES */
+/*__________________________*/
+
+@media (max-width: 1145px) {
+  .contact {
+    margin-top: 200px;
+    width: max-content;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact img {
+    width: 50px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contact p {
+    font-size: 12px;
+  }
 }

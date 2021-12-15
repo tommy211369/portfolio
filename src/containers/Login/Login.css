@@ -151,3 +151,25 @@
   font-size: 20px;
   color: yellow;
 }
+
+/*__________________________*/
+/* MEDIA QUERIES */
+/*__________________________*/
+
+@media (max-width: 700px) {
+  .login div:first-child span:first-child,
+  .login div:first-child span:last-child {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login div:first-child span:first-child,
+  .login div:first-child span:last-child {
+    font-size: 15px;
+  }
+
+  .login form label {
+    font-size: 12px;
+  }
+}

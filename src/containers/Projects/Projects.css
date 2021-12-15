@@ -99,3 +99,30 @@
   margin-top: 20px;
   line-height: 18px;
 }
+
+/*__________________________*/
+/* MEDIA QUERIES */
+/*__________________________*/
+
+@media (max-width: 470px) {
+  .current-project,
+  .next-project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .next-project div:last-child h3,
+  .current-project h3,
+  .current-project p {
+    text-align: center;
+  }
+
+  .next-project div:last-child p {
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .next-project {
+    margin-bottom: 50px;
+  }
+}
