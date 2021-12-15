@@ -1,17 +1,18 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
-import routes from "../routes";
+import routes from "../../routes";
+import "./Home.css";
 
 // Components
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Sidebar from "../components/Sidebar";
-import Projects from "./Projects";
-import About from "./About";
-import Project from "./Project";
-import Spinner from "../components/Spinner";
-import ScrollToTop from "../components/ScrollToTop";
-import ScrollUp from "../components/ScrollUp";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer";
+import Sidebar from "../../components/Sidebar";
+import Projects from "../Projects";
+import About from "../About";
+import Project from "../Project";
+import Spinner from "../../components/Spinner";
+import ScrollToTop from "../../components/ScrollToTop";
+import ScrollUp from "../../components/ScrollUp";
 
 function Home({ username, setUsername }) {
   const [loading, setLoading] = useState(true);

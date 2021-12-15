@@ -1,0 +1,84 @@
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------ */
+.header {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  background-color: #212121;
+  color: white;
+  padding: 20px 40px;
+  border-bottom: 1px solid #606060;
+}
+
+.header div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+  animation: opacity 3s ease;
+}
+
+.header div:first-child span:first-child {
+  background-color: #7f0000;
+  padding: 5px 15px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.header div:first-child span:last-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* button */
+.header div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+  animation: opacity 3s ease;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header div:nth-child(2) p {
+  font-size: 13px;
+}
+
+.header button,
+.menu-bars button {
+  color: #3ea7ff;
+  border: 1px solid #3ea7ff;
+  background-color: inherit;
+  padding: 10px;
+  transition: all 0.2s ease;
+}
+
+.header button:hover,
+.menu-bars button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #3ea7ff;
+  border: 1px solid white;
+}
+
+.menu-bars-icon {
+  visibility: hidden;
+  position: absolute;
+  font-size: 25px;
+  padding: 6px;
+  right: 15px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}

@@ -1,0 +1,25 @@
+/* ------------------------------------ */
+/* SIDEBAR */
+/* ------------------------------------ */
+.sidebar {
+  display: flex;
+  position: fixed;
+  box-sizing: border-box;
+  min-width: 220px;
+  flex-direction: column;
+  background-color: #212121;
+  color: white;
+  min-height: 100vh;
+  margin-top: 78px;
+}
+
+.sidebar a {
+  padding: 13px;
+  transition: background-color 0.2s ease;
+  display: flex;
+  animation: opacity 4s ease;
+}
+
+.sidebar a:hover {
+  background-color: #606060;
+}

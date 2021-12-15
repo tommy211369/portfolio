@@ -2,6 +2,7 @@ import linkedin from "../assets/img/linkedin.png";
 import github from "../assets/img/github.png";
 import gmail from "../assets/img/gmail.png";
 import Fade from "react-reveal/Fade";
+import "./Contact.css";
 
 function Contact() {
   return (

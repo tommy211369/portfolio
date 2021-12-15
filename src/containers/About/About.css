@@ -1,0 +1,103 @@
+/* ------------------------------------ */
+/* ABOUT */
+/* ------------------------------------ */
+.about h1 {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.about .first-p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 150px 0;
+}
+
+.about .first-p span {
+  font-size: 50px;
+}
+
+.about .first-p a {
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: #7f0000;
+  padding: 8px 15px;
+
+  font-weight: 300;
+  border-radius: 50px;
+  transition: all 0.2s ease;
+}
+
+.about .first-p a:hover {
+  cursor: pointer;
+  background-color: #db5353;
+  box-shadow: 0 0 5px 2px #7f0000;
+}
+
+.about span {
+  color: #db5353;
+}
+
+.about .details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .details div {
+  margin-right: 20%;
+}
+
+.about .details img {
+  max-width: 320px;
+  max-height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about .link {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.about .link a {
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: #7f0000;
+  padding: 8px 15px;
+
+  font-weight: 300;
+  border-radius: 50px;
+  transition: all 0.2s ease;
+}
+
+.about .link a:hover {
+  cursor: pointer;
+  background-color: #db5353;
+  box-shadow: 0 0 5px 2px #7f0000;
+}
+
+.stack-and-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stack,
+.contact {
+  width: 40%;
+}
+
+.stack h3,
+.contact h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}

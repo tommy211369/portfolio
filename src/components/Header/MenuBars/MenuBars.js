@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import "./MenuBars.css";
 
 function Menubars({ handleLogOut, setShowMenuBars }) {
   return (

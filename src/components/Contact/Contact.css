@@ -1,0 +1,21 @@
+.contact img {
+  width: 50px;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  transition: all 0.2s ease;
+}
+
+.contact a:hover p {
+  color: #db5353;
+}
+
+.contact img {
+  margin-right: 15px;
+}

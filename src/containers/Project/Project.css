@@ -1,0 +1,160 @@
+/* __________________________________ */
+/* PROJECT */
+/* __________________________________ */
+.project {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.project .details {
+  max-width: 770px;
+  overflow: scroll;
+}
+
+.details img {
+  width: 770px;
+  height: 405px;
+  object-fit: cover;
+  object-position: top;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.project .details .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #606060;
+  padding-bottom: 20px;
+}
+
+.project .details .title div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.github-icon {
+  transition: color 0.2s ease;
+}
+
+.github-icon:hover {
+  color: #969696;
+}
+
+.project .details h2 {
+  font-size: 22px;
+}
+
+.project .details .title a:first-child:hover {
+  text-decoration: underline;
+}
+
+.project .details .title a:last-child {
+  background-color: #7f0000;
+  padding: 10px 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.project .details .title a:last-child:hover {
+  background-color: rgba(127, 0, 0, 0.6);
+}
+
+.technos {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #606060;
+  font-size: 14px;
+}
+
+.technos div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.technos > p {
+  font-style: oblique;
+  color: #a0a0a0;
+  line-height: 18px;
+}
+
+.techno {
+  background-color: #4d4d4d;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  border: 1px solid #666666;
+}
+
+.game-description {
+  margin-top: 20px;
+  box-sizing: border-box;
+  line-height: 22px;
+}
+
+.game-description p:last-child {
+  margin-top: 20px;
+}
+
+.packages {
+  padding: 20px 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #606060;
+}
+
+.packages p {
+  color: #9b9b9b;
+}
+
+.project .other-projects {
+  margin-left: 20px;
+  flex: 2;
+}
+
+.project .other-projects a {
+  display: flex;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+  border: 2px solid #181818;
+}
+
+.project .other-projects a:hover {
+  background-color: #606060;
+  border: 2px solid #606060;
+}
+
+.project .other-projects img {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.project .other-projects div {
+  padding: 10px;
+}
+
+.project .other-projects h1 {
+  font-size: 14px;
+}
+
+.project .other-projects p {
+  font-size: 12px;
+  margin-top: 5px;
+  font-style: oblique;
+  color: #b5b5b5;
+}
+
+.project .other-projects p:last-child {
+  display: none;
+  margin-top: 20px;
+}

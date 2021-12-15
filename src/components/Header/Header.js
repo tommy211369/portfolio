@@ -2,7 +2,9 @@ import Cookies from "js-cookie";
 import { useHistory } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import MenuBars from "./MenuBars";
+import "./Header.css";
+
+import MenuBars from "./MenuBars/MenuBars";
 
 function Header({ setUsername }) {
   const [showMenuBars, setShowMenuBars] = useState(false);

@@ -1,0 +1,56 @@
+.menu-bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+  padding: 15px;
+  height: 250px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 350px;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #3f3f3f;
+  z-index: 2000;
+  transition: all 0.5s ease;
+  animation: slideLeft 0.3s ease;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.menu-bars a {
+  display: flex;
+  padding: 10px;
+  transition: background-color 0.2s ease;
+  border-radius: 5px;
+}
+
+.menu-bars a:hover {
+  background-color: #606060;
+}
+
+.menu-bars-icon:hover {
+  cursor: pointer;
+  color: #7f0000;
+  background-color: white;
+}
+
+.times-circle-icon {
+  font-size: 25px;
+  transition: color 0.2s ease;
+}
+
+.times-circle-icon:hover {
+  cursor: pointer;
+  color: #7f0000;
+}

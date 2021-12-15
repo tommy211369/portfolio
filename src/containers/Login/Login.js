@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Login.css";
 
 function Login({ setUserCookie }) {
   const [user, setUser] = useState("");

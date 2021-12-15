@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
-import list from "../assets/projects";
+import list from "../../assets/projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import QrCode2Icon from "@mui/icons-material/QrCode2";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import routes from "../routes";
+import routes from "../../routes";
+import "./Project.css";
 
 function Project() {
   const location = useLocation();

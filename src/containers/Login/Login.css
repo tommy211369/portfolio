@@ -1,0 +1,153 @@
+/* ------------------------------------ */
+/* LOGIN */
+/* ------------------------------------ */
+.login {
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+  margin-bottom: 35px;
+}
+
+.login div:first-child span:first-child {
+  background-color: #7f0000;
+  padding: 5px 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  font-size: 30px;
+  animation: translateRight 2s ease-out, opacity 4s ease-out;
+}
+
+@keyframes translateRight {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.login div:first-child span:last-child {
+  font-weight: 700;
+  font-size: 35px;
+  animation: translateLeft 2s ease-out, opacity 4s ease-out;
+}
+
+@keyframes translateLeft {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login form {
+  max-width: 850px;
+  min-height: 100px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  animation: opacityForm 4s ease-in;
+}
+
+@keyframes opacityForm {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.login form label {
+  font-size: 14px;
+  font-style: oblique;
+}
+
+.login form input {
+  width: 70%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login button {
+  width: max-content;
+  padding: 7px;
+  background-color: #7f0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.login button:hover {
+  cursor: pointer;
+  background-color: #db5353;
+}
+
+.alert-message {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  right: 20px;
+  bottom: 50px;
+  background-color: #db5353;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  animation: translateX 4s ease;
+}
+
+@keyframes translateX {
+  from {
+    transform: translateX(100%);
+  }
+
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.warning-icon {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: yellow;
+}

@@ -13,8 +13,10 @@ import firebase from "../assets/img/firebase.png";
 import netlify from "../assets/img/netlify.png";
 import heroku from "../assets/img/heroku.png";
 import git from "../assets/img/git.png";
-import Logo from "./Logo";
 import Fade from "react-reveal/Fade";
+import "./Stack.css";
+
+import Logo from "../Logo";
 
 function Stack() {
   return (

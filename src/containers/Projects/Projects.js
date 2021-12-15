@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import list from "../assets/projects";
-import next from "../assets/next";
-import currentProject from "../assets/currently";
+import list from "../../assets/projects";
+import next from "../../assets/next";
+import currentProject from "../../assets/currently";
 import Fade from "react-reveal/Fade";
-import routes from "../routes";
+import routes from "../../routes";
+import "./Projects.css";
 
 function Projects() {
   return (

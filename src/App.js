@@ -15,8 +15,8 @@ import { useState } from "react";
 import Cookies from "js-cookie";
 
 // Components
-import Home from "./containers/Home";
-import Login from "./containers/Login";
+import Home from "./containers/Home/Home";
+import Login from "./containers/Login/Login";
 
 library.add(
   faTasks,
