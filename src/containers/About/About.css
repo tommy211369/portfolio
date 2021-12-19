@@ -1,6 +1,7 @@
 /* ------------------------------------ */
 /* ABOUT */
 /* ------------------------------------ */
+
 .about h1 {
   font-size: 20px;
   margin-bottom: 40px;
@@ -53,10 +54,11 @@
 
 .about .details div {
   margin-right: 20%;
+  flex: 2;
 }
 
 .about .details img {
-  max-width: 320px;
+  flex: 2;
   max-height: 340px;
   object-fit: cover;
   border-radius: 10px;

@@ -28,11 +28,13 @@ a {
 /* ------------------------------------ */
 .pages {
   flex: 1;
+  min-height: 100vh;
   color: white;
   background-color: #181818;
   padding: 20px;
   padding-top: 98px;
-  padding-left: 240px;
+  box-sizing: border-box;
+  /* padding-left: 240px; */
 }
 
 /* ---- */

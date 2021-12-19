@@ -5,6 +5,7 @@ import { useState } from "react";
 import "./Header.css";
 
 import MenuBars from "./MenuBars/MenuBars";
+import Sidebar from "../Sidebar/Sidebar";
 
 function Header({ setUsername }) {
   const [showMenuBars, setShowMenuBars] = useState(false);
@@ -22,11 +23,10 @@ function Header({ setUsername }) {
         <span>Tommy Thongrasamy</span> &nbsp;
         <span>Développeur Fullstack JavaScript (React & Node)</span>
       </div>
-
+      <Sidebar />
       <div>
         <button onClick={handleLogOut}>Quitter</button>
       </div>
-
       {!showMenuBars && (
         <FontAwesomeIcon
           icon="bars"
@@ -36,7 +36,6 @@ function Header({ setUsername }) {
           }}
         />
       )}
-
       {showMenuBars && (
         <MenuBars
           handleLogOut={handleLogOut}

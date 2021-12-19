@@ -87,19 +87,19 @@
 /* MEDIA QUERIES */
 /*__________________________*/
 
-@media (max-width: 1180px) {
-  .header div:first-child {
-    justify-content: flex-start;
-  }
-}
-
-@media (max-width: 1015px) {
-  .header div:nth-child(2) button {
+@media (max-width: 1150px) {
+  .header div:nth-child(3) button {
     display: none;
   }
 
   .menu-bars-icon {
     visibility: visible;
+  }
+}
+
+@media (max-width: 1180px) {
+  .header div:first-child {
+    justify-content: flex-start;
   }
 }
 

@@ -1,7 +1,8 @@
 /* FOOTER */
 .footer {
   color: white;
-  padding: 20px 40px;
+  padding: 20px 0;
+  min-width: 100%;
   background-color: #212121;
   border-top: 1px solid #606060;
   font-size: 12px;

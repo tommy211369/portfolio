@@ -33,7 +33,7 @@ function Home({ username, setUsername }) {
           <Header setUsername={setUsername} />
 
           <div className="main-content">
-            <Sidebar />
+            {/* <Sidebar /> */}
 
             <Switch>
               <Route exact path={routes.PROJECTS}>
