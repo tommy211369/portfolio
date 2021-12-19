@@ -9,7 +9,6 @@
 .project .details {
   flex: 3.5;
   overflow: scroll;
-  min-height: 100%;
 }
 
 .project .details img {
