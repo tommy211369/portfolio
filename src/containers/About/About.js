@@ -19,7 +19,7 @@ function About({ username }) {
         <p className="first-p">
           Je m'appelle <br></br>
           <span>Tommy Thongrasamy</span>.<br></br>
-          Je suis développeur fullstack JavaScript (React & Node).<br></br>
+          Je suis développeur Front-end React.js.<br></br>
           {/* <a href={file} download>
           Mon CV
   </a> */}

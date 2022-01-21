@@ -28,7 +28,7 @@ function Stack() {
           <Logo techno={css} stack="CSS" />
           <Logo techno={js} stack="JavaScript" />
           {/* <Logo techno={typescript} stack="TypeScript" /> */}
-          <Logo techno={react} stack="React & React Native" />
+          <Logo techno={react} stack="React" />
           <Logo techno={redux} stack="Redux" />
           {/* <Logo techno={next} stack="" /> */}
           {/* <Logo techno={graphql} stack="GraphQL" /> */}
