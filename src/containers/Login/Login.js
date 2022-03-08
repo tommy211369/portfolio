@@ -21,7 +21,7 @@ function Login({ setUserCookie }) {
     <div className="login">
       <div>
         <span>Tommy Thongrasamy</span> &nbsp;
-        <span>Développeur Fullstack Web & Mobile</span>
+        <span>Développeur Front-End React</span>
       </div>
 
       <form onSubmit={handleSubmit}>
