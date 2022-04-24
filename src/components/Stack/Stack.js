@@ -6,10 +6,10 @@ import react from "../../assets/img/react.png";
 import redux from "../../assets/img/redux.png";
 // import next from "../../assets/img/next.png";
 // import graphql from "../../assets/img/graphql.png";
-// import nodejs from "../../assets/img/nodejs.png";
-// import express from "../../assets/img/express1.png";
-// import mongodb from "../../assets/img/mongodb.png";
-import firebase from "../../assets/img/firebase.png";
+import nodejs from "../../assets/img/nodejs.png";
+import express from "../../assets/img/express1.png";
+import mongodb from "../../assets/img/mongodb.png";
+// import firebase from "../../assets/img/firebase.png";
 import netlify from "../../assets/img/netlify.png";
 // import heroku from "../../assets/img/heroku.png";
 import git from "../../assets/img/git.png";
@@ -32,10 +32,10 @@ function Stack() {
           <Logo techno={redux} stack="Redux" />
           {/* <Logo techno={next} stack="" /> */}
           {/* <Logo techno={graphql} stack="GraphQL" /> */}
-          {/*<Logo techno={nodejs} stack="Node.js" />*/}
-          {/*<Logo techno={express} stack="" />*/}
-          {/*<Logo techno={mongodb} stack="MongoDB" />*/}
-          <Logo techno={firebase} stack="Firebase" />
+          <Logo techno={nodejs} stack="Node.js" />
+          <Logo techno={express} stack="" />
+          <Logo techno={mongodb} stack="MongoDB" />
+          {/* <Logo techno={firebase} stack="Firebase" /> */}
           <Logo techno={netlify} stack="" />
           {/*<Logo techno={heroku} stack="" />*/}
           <Logo techno={git} stack="Git" />

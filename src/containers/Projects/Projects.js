@@ -24,13 +24,10 @@ function Projects() {
                 <img src={item.img} alt={item.title} />
                 <div
                   style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
+                    textAlign: "center",
                   }}
                 >
                   <h2>{item.title}</h2>
-                  <h3>{item.short}</h3>
                 </div>
               </Fade>
             </Link>
