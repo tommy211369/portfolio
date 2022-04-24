@@ -2,6 +2,8 @@ import gamepad from "./img/gamepad.jpg";
 import vinted from "./img/vinted.jpg";
 import marvel from "./img/marvel.jpg";
 import deliveroo from "./img/deliveroo.jpg";
+import mvdb from "./img/mvdb.jpg";
+import minions from "./img/minions.jpg";
 import emoji from "./img/emoji.jpg";
 import todolist from "./img/todolist.jpg";
 import airbnb from "./img/airbnb.jpg";
@@ -55,12 +57,42 @@ const list = [
       "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
   },
   {
+    title: "The Movie Database",
+    slug: "the-movie-database",
+    description:
+      "Une application qui recence tous les films existant en utilisant l'API de The Movie Database (TMDB).",
+    features:
+      "L'utilisateur recherche un film et obtient des informations : casting, vidéos, films recommandés. L'utilisateur peut obtenir également des informations sur un acteur (ou actrice) et voir sa filmographie",
+    img: mvdb,
+    type: "Application web",
+    short: "Web",
+    site: "https://themoviedb-tommy-thongrasamy.netlify.app/",
+    github: "https://github.com/tommy211369/themoviedb",
+    technos: "React,Hooks,Netlify,API",
+    packages: "axios, react-youtube, react-router-dom",
+  },
+  {
+    title: "Les Minions",
+    slug: "minions",
+    description:
+      "Application simple utilisant la bibliothèque de gestion d'état Redux.",
+    features:
+      "L'utilisateur a la possiblité d'ajouter, détruire des minions ainsi que de sauvegarder le nombre de minions infiltrés.",
+    img: minions,
+    type: "Application web",
+    short: "Web",
+    site: "https://minions-tommy-thongrasamy.netlify.app/",
+    github: "https://github.com/tommy211369/minions",
+    technos: "React, Redux, Hooks, Netlify",
+    packages: "redux",
+  },
+  {
     title: "Réplique de Deliveroo",
     slug: "replique-de-deliveroo",
     description:
       "Il s'agit d'une réplique simplifiée du site web de Deliveroo.",
     features:
-      "L'utilisateur a la possiblité de sélectionner des repas et de passer des paiements.",
+      "L'utilisateur a la possiblité de sélectionner des repas et de visualiser son panier.",
     img: deliveroo,
     type: "Application web",
     short: "Web",
@@ -69,38 +101,39 @@ const list = [
     technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
     packages: "material-ui, fontawesome",
   },
-  {
-    title: "Emoji Search",
-    slug: "emoji-search",
-    description:
-      "Il s'agit d'une application web qui permet de rechercher des emojis.",
-    features:
-      "L'utilisateur a ensuite la possibilité de copier les emojis sur le presse-papier.",
-    img: emoji,
-    type: "Application web",
-    short: "Web",
-    site: "https://react-emoji-search-engine.netlify.app/",
-    github: "https://github.com/tommy211369/react-emoji-search",
-    technos: "React, Netlify",
-    packages:
-      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
-  },
-  {
-    title: "Todo List",
-    slug: "todo-list",
-    description:
-      "Il s'agit d'une application web qui permet de créer une liste de tâches à effectuer.",
-    features:
-      "L'utilisateur peut ajouter une tâche, indiquer que la tâche a été effectuée, et enfin la supprimer. Il est possible de switcher du mode Sombre au mode Clair.",
-    img: todolist,
-    type: "Application web",
-    short: "Web",
-    site: "https://react-todo-list-tommy.netlify.app/",
-    github: "https://github.com/tommy211369/react-todo-list",
-    technos: "React, Netlify",
-    packages:
-      "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
-  },
+
+  // {
+  //   title: "Emoji Search",
+  //   slug: "emoji-search",
+  //   description:
+  //     "Il s'agit d'une application web qui permet de rechercher des emojis.",
+  //   features:
+  //     "L'utilisateur a ensuite la possibilité de copier les emojis sur le presse-papier.",
+  //   img: emoji,
+  //   type: "Application web",
+  //   short: "Web",
+  //   site: "https://react-emoji-search-engine.netlify.app/",
+  //   github: "https://github.com/tommy211369/react-emoji-search",
+  //   technos: "React, Netlify",
+  //   packages:
+  //     "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
+  // },
+  // {
+  //   title: "Todo List",
+  //   slug: "todo-list",
+  //   description:
+  //     "Il s'agit d'une application web qui permet de créer une liste de tâches à effectuer.",
+  //   features:
+  //     "L'utilisateur peut ajouter une tâche, indiquer que la tâche a été effectuée, et enfin la supprimer. Il est possible de switcher du mode Sombre au mode Clair.",
+  //   img: todolist,
+  //   type: "Application web",
+  //   short: "Web",
+  //   site: "https://react-todo-list-tommy.netlify.app/",
+  //   github: "https://github.com/tommy211369/react-todo-list",
+  //   technos: "React, Netlify",
+  //   packages:
+  //     "react-router-dom, axios, js-cookie, material-ui, fontawesome, dotenv, cors, crypto-js, uid2",
+  // },
 ];
 
 export default list;

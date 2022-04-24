@@ -10,10 +10,8 @@
 }
 
 .project-link {
-  max-width: 270px;
-  max-height: 200px;
-
-  margin-bottom: 50px;
+  width: 23%;
+  margin-bottom: 80px;
   transition: transform 0.2s ease;
 }
 
@@ -37,92 +35,30 @@
   object-fit: cover;
 }
 
-.projects hr {
-  margin: 50px 0 20px 0;
-  border-color: #878787;
-}
-
 .projects h1 {
   text-transform: uppercase;
   font-style: oblique;
   color: #878787;
 }
 
-.current-project {
-  margin-top: 30px;
-  display: flex;
-}
-
-.current-project div {
-  padding: 10px;
-}
-
-.current-project img {
-  width: 250px;
-  height: 170px;
-  object-fit: cover;
-  object-position: top;
-}
-
-.next-project {
-  margin-top: 30px;
-  display: flex;
-}
-
-.next-project:hover img {
-  opacity: 1;
-}
-
-.next-project img {
-  width: 250px;
-  height: 170px;
-  object-fit: cover;
-  object-position: top;
-  opacity: 0.4;
-  transition: opacity 0.2s ease;
-}
-
-.next-project div:last-child {
-  padding: 10px;
-  color: #969696;
-  transition: color 0.2s ease;
-}
-
-.next-project:hover div:last-child {
-  color: white;
-}
-
-.next-project div:last-child p,
-.current-project p {
-  font-style: oblique;
-  font-size: 14px;
-  margin-top: 20px;
-  line-height: 18px;
-}
-
 /*__________________________*/
 /* MEDIA QUERIES */
 /*__________________________*/
 
-@media (max-width: 470px) {
-  .current-project,
-  .next-project {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 1024px) {
+  .project-link {
+    width: 30%;
   }
+}
 
-  .next-project div:last-child h3,
-  .current-project h3,
-  .current-project p {
-    text-align: center;
+@media (max-width: 800px) {
+  .project-link {
+    width: 45%;
   }
+}
 
-  .next-project div:last-child p {
-    margin-top: 8px;
-    text-align: center;
-  }
-
-  .next-project {
-    margin-bottom: 50px;
+@media (max-width: 600px) {
+  .project-link {
+    width: 80%;
   }
 }
