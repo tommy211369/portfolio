@@ -4,17 +4,15 @@ import tommy from "../../assets/img/tommy.jpg";
 import "./About.css";
 
 // Components
-import Stack from "../../components/Stack/Stack";
-import Contact from "../../components/Contact/Contact";
+import Stack from "../Stack/Stack";
+import Contact from "../Contact/Contact";
 import Fade from "react-reveal/Fade";
 
-function About({ username }) {
+function About() {
   return (
     <div className="about pages">
       <Fade bottom>
-        <h1>
-          Bonjour <span>{username}</span> !
-        </h1>
+        <h1>Bonjour !</h1>
 
         <p className="first-p">
           Je m'appelle <br></br>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import list from "../../assets/projects";
 import Fade from "react-reveal/Fade";
-import routes from "../../routes";
+import routes from "../../assets/routes";
 import "./Projects.css";
 
 function Projects() {
