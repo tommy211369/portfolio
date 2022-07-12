@@ -1,6 +1,7 @@
 // Librairies
 import { Link } from "react-router-dom";
 import tommy from "../../assets/img/tommy.jpg";
+import CV from "../../assets/CV_TommyThongrasamy_Developpeur_Front_End_React.pdf";
 import "./About.css";
 
 // Components
@@ -18,9 +19,9 @@ function About() {
           Je m'appelle <br></br>
           <span>Tommy Thongrasamy</span>.<br></br>
           Je suis développeur Front-end React.<br></br>
-          {/* <a href={file} download>
-          Mon CV
-  </a> */}
+          <a href={CV} download>
+            Mon CV
+          </a>
         </p>
 
         <div className="details">

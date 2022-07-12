@@ -14,12 +14,12 @@ import {
   faBars,
   faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import Cookies from "js-cookie";
+// import Cookies from "js-cookie";
 
 // Components
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import Sidebar from "../../components/Sidebar/Sidebar";
+// import Sidebar from "../../components/Sidebar/Sidebar";
 import Projects from "../../components/Projects/Projects";
 import About from "../../components/About/About";
 import Project from "../Project/Project";
