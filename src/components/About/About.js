@@ -1,7 +1,7 @@
 // Librairies
 import { Link } from "react-router-dom";
 import tommy from "../../assets/img/tommy.jpg";
-import CV from "../../assets/CV_TommyThongrasamy_Developpeur_Front_End_React.pdf";
+import CV from "../../assets/CV-TommyThongrasamy-DeveloppeurReactJS.pdf";
 import "./About.css";
 
 // Components
