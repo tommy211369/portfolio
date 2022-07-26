@@ -24,9 +24,9 @@ function Header({ setUsername }) {
         <span>Développeur Front-end React</span>
       </div>
       <Sidebar />
-      <div>
+      {/*<div>
         <button onClick={handleLogOut}>Quitter</button>
-      </div>
+  </div> */}
       {!showMenuBars && (
         <FontAwesomeIcon
           icon="bars"
