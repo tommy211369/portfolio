@@ -1,3 +1,4 @@
+import directscore from "./img/directscore.jpg";
 import gamepad from "./img/gamepad.jpg";
 import vinted from "./img/vinted.jpg";
 import marvel from "./img/marvel.jpg";
@@ -9,6 +10,22 @@ import todolist from "./img/todolist.jpg";
 import airbnb from "./img/airbnb.jpg";
 
 const list = [
+  {
+    title: "DirectScore",
+    slug: "directscore",
+    description:
+      "Site web en cours de développement qui permet de suivre les scores des matchs de foot en direct",
+    features:
+      "Le visiteur peut suivre les résultats des matchs de foot des 5 grands championnats européens ainsi que de la Ligue des Champions.",
+    img: directscore,
+    type: "Application web",
+    short: "Web",
+    site: "https://directscore.netlify.app/",
+    github: "https://github.com/tommy211369/direct-score",
+    technos: "React,Hooks,Express,Netlify,Render,API",
+    packages: "react-router-dom, axios, material-ui, fontawesome, dotenv, cors",
+  },
+
   {
     title: "Gamepad",
     slug: "gamepad",
@@ -86,21 +103,21 @@ const list = [
     technos: "React, Redux, Hooks, Netlify",
     packages: "redux",
   },
-  {
-    title: "Réplique de Deliveroo",
-    slug: "replique-de-deliveroo",
-    description:
-      "Il s'agit d'une réplique simplifiée du site web de Deliveroo.",
-    features:
-      "L'utilisateur a la possiblité de sélectionner des repas et de visualiser son panier.",
-    img: deliveroo,
-    type: "Application web",
-    short: "Web",
-    site: "https://react-deliveroo-project.netlify.app/",
-    github: "https://github.com/tommy211369/react-deliveroo-front",
-    technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
-    packages: "material-ui, fontawesome",
-  },
+  // {
+  //   title: "Réplique de Deliveroo",
+  //   slug: "replique-de-deliveroo",
+  //   description:
+  //     "Il s'agit d'une réplique simplifiée du site web de Deliveroo.",
+  //   features:
+  //     "L'utilisateur a la possiblité de sélectionner des repas et de visualiser son panier.",
+  //   img: deliveroo,
+  //   type: "Application web",
+  //   short: "Web",
+  //   site: "https://react-deliveroo-project.netlify.app/",
+  //   github: "https://github.com/tommy211369/react-deliveroo-front",
+  //   technos: "React,Hooks,Express,Netlify,Heroku,MongoDB,API",
+  //   packages: "material-ui, fontawesome",
+  // },
 
   // {
   //   title: "Emoji Search",

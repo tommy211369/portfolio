@@ -6,7 +6,7 @@ import react from "../../assets/img/react.png";
 import redux from "../../assets/img/redux.png";
 // import jest from "../../assets/img/jest.png";
 // import next from "../../assets/img/next.png";
-import graphql from "../../assets/img/graphql.png";
+// import graphql from "../../assets/img/graphql.png";
 import nodejs from "../../assets/img/nodejs.png";
 import express from "../../assets/img/express1.png";
 import mongodb from "../../assets/img/mongodb.png";
@@ -33,7 +33,7 @@ function Stack() {
           <Logo techno={redux} stack="Redux" />
           {/*<Logo techno={jest} stack="" /> */}
           {/* <Logo techno={next} stack="" /> */}
-          <Logo techno={graphql} stack="GraphQL" />
+          {/*<Logo techno={graphql} stack="GraphQL" />*/}
           <Logo techno={nodejs} stack="Node.js" />
           <Logo techno={express} stack="" />
           <Logo techno={mongodb} stack="MongoDB" />
